@@ -28,9 +28,9 @@ class CanHaveKits(unittest.TestCase):
         relation_events = Pregnancy_Events()
         test_clan = Clan(name="clan")
         test_clan.pregnancy_data = {}
-        cat1 = Cat(gender = 'female')
+        cat1 = Cat(gender = 'molly')
         cat1.no_kits = True
-        cat2 = Cat(gender = 'male')
+        cat2 = Cat(gender = 'tom')
 
         cat1.mate.append(cat2.ID)
         cat2.mate.append(cat1.ID)
@@ -50,8 +50,8 @@ class SameSexAdoptions(unittest.TestCase):
     def test_kits_are_adopted(self):
         # given
         relation_events = Pregnancy_Events()
-        cat1 = Cat(gender = 'female', age = "adult", moons=40)
-        cat2 = Cat(gender = 'female', age = "adult", moons=40)
+        cat1 = Cat(gender = 'molly', age = "adult", moons=40)
+        cat2 = Cat(gender = 'molly', age = "adult", moons=40)
         cat1.mate.append(cat2.ID)
         cat2.mate.append(cat1.ID)
 
@@ -77,7 +77,7 @@ class Pregnancy(unittest.TestCase):
         # given
         relation_events = Pregnancy_Events()
         clan = Clan(name="clan")
-        cat = Cat(gender = 'female')
+        cat = Cat(gender = 'molly')
         clan.pregnancy_data = {}
 
         # when
@@ -92,8 +92,8 @@ class Pregnancy(unittest.TestCase):
         # given
         relation_events = Pregnancy_Events()
         clan = Clan(name="clan")
-        cat1 = Cat(gender = 'female')
-        cat2 = Cat(gender = 'male')
+        cat1 = Cat(gender = 'molly')
+        cat2 = Cat(gender = 'tom')
 
         relation = Relationship(cat1, cat2,mates=True,family=False,romantic_love=100)
         clan.pregnancy_data = {}
