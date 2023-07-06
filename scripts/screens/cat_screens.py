@@ -696,7 +696,7 @@ class ProfileScreen(Screens):
         output += "\n"
 
         # EYE COLOR
-        output += 'eyes: ' + str(the_cat.describe_eyes())
+        output += str(the_cat.describe_eyes())
         # NEWLINE ----------
         output += "\n"
 

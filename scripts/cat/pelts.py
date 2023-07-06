@@ -949,7 +949,6 @@ class Pelt():
                 "sienna": "dark ginger",
                 "lightbrown": "light brown",
                 "lilac": "light brown",
-                "golden-brown": "golden brown",
                 "darkbrown": "dark brown",
                 "chocolate": "dark brown",
                 "ghost": "black"
@@ -966,7 +965,7 @@ class Pelt():
             "Classic": "c_n tabby",
             "Agouti": "c_n tabby",
             "Singlestripe": "dorsal-striped c_n",
-            "Rosette": "unusually spotted c_n",
+            "Rosette": "unusually-spotted c_n",
             "Sokoke": "c_n tabby"
         }
 
@@ -1002,7 +1001,7 @@ class Pelt():
                 patches_color = cat.pelt.tortiecolour.lower()
                 if patches_color in renamed_colors:
                     patches_color = renamed_colors[patches_color]
-                color_name = f"{color_name}/{patches_color}"
+                color_name = f"{color_name} + {patches_color}"
                 
                 if cat.pelt.colour in Pelt.black_colours + Pelt.brown_colours + Pelt.white_colours and \
                     cat.pelt.tortiecolour in Pelt.black_colours + Pelt.brown_colours + Pelt.white_colours:
@@ -1015,17 +1014,17 @@ class Pelt():
                 # If the cat is fullwhite, discard all other information. They are just white. 
                 color_name = "white"
             if cat.pelt.white_patches in Pelt.mostly_white and cat.pelt.name != "Calico":
-                color_name = f"white and {color_name}"
+                color_name = f"white-and-{color_name}"
             elif cat.pelt.name != "Calico":
-                color_name = f"{color_name} and white"
+                color_name = f"{color_name}-and-white"
         
         if cat.pelt.points:
-            color_name = f"{color_name} point"
-            if "ginger point" in color_name:
-                color_name.replace("ginger point", "flame point")
+            color_name = f"{color_name}-point"
+            if "ginger-point" in color_name:
+                color_name.replace("ginger-point", "flame-point")
 
-        if "white and white" in color_name:
-            color_name = color_name.replace("white and white", "white")
+        if "white-and-white" in color_name:
+            color_name = color_name.replace("white-and-white", "white")
 
         # Now it's time for gender
         if cat.genderalign in ["molly", "trans molly"]:

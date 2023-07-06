@@ -93,23 +93,6 @@
     {
         "camp": "any",
         "tags": [
-            "Leaf-bare",
-            "Newleaf",
-            "Greenleaf",
-            "Leaf-fall"
-        ],
-        "event_text": "m_c disappears for a few days, then returns to camp with a acc_singular around {PRONOUN/m_c/poss} neck.",
-        "cat_trait": null,
-        "cat_skill": null,
-        "other_cat_trait": null,
-        "other_cat_skill": null,
-        "accessories": [
-            "COLLAR"
-        ]
-    },
-    {
-        "camp": "any",
-        "tags": [
             "Newleaf",
             "Greenleaf",
             "Leaf-fall",

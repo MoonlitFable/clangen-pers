@@ -723,17 +723,23 @@ class Cat():
             return
         
         self.personality.set_kit(self.is_baby()) #Update kit trait stuff
-        
+
 
     def describe_cat(self, short=False):
         """ Generates a string describing the cat's appearance and gender. Mainly used for generating
         the allegiances. If short is true, it will generate a very short one, with the minimal amount of information. """
         output = Pelt.describe_appearance(self, short)
         # Add "a" or "an"
-        if output[0].lower() in "aiou":
-            output = f"an {output}"
+        if short:
+            if output[0].lower() in "aiou":
+                output = f"an {output}"
+            else:
+                output = f"a {output}"
         else:
-            output = f"a {output}"
+            if output[0].lower() in "aiou":
+                output = f"   An {output}. They have {self.describe_eyes()}."
+            else:
+                output = f"   A {output}. They have {self.describe_eyes()}."
 
         return output
 
@@ -742,37 +748,50 @@ class Cat():
         colour2 = str(self.pelt.eye_colour2).lower()
 
         if colour == 'palegreen':
-            colour = 'pale green'
+            colour = 'pale-green'
+        if colour == 'sage':
+            colour = 'sage-green'
         elif colour == 'darkblue':
-            colour = 'dark blue'
+            colour = 'dark-blue'
         elif colour == 'paleblue':
-            colour = 'pale blue'
+            colour = 'pale-blue'
         elif colour == 'paleyellow':
-            colour = 'pale yellow'
+            colour = 'pale-yellow'
         elif colour == 'heatherblue':
-            colour = 'heather blue'
+            colour = 'heather-blue'
+        elif colour == 'grey':
+            colour = 'gray'
         elif colour == 'blue2':
             colour = 'blue'
         elif colour == 'sunlitice':
-            colour = 'sunlit ice'
+            colour = 'blue-yellow'
         elif colour == 'greenyellow':
             colour = 'green-yellow'
         if self.pelt.eye_colour2:
             if colour2 == 'palegreen':
-                colour2 = 'pale green'
+                colour2 = 'pale-green'
+            if colour2 == 'sage':
+                colour2 = 'sage-green'
             if colour2 == 'darkblue':
-                colour2 = 'dark blue'
+                colour2 = 'dark-blue'
             if colour2 == 'paleblue':
-                colour2 = 'pale blue'
+                colour2 = 'pale-blue'
             if colour2 == 'paleyellow':
-                colour2 = 'pale yellow'
+                colour2 = 'pale-yellow'
             if colour2 == 'heatherblue':
-                colour2 = 'heather blue'
+                colour2 = 'heather-blue'
+            elif colour2 == 'grey':
+                colour2 = 'gray'
+            elif colour2 == 'blue2':
+                colour2 = 'blue'
             if colour2 == 'sunlitice':
-                colour2 = 'sunlit ice'
+                colour2 = 'blue-yellow'
             if colour2 == 'greenyellow':
                 colour2 = 'green-yellow'
-            colour = colour + ' and ' + colour2
+        if self.pelt.eye_colour2:
+            colour = 'one ' + colour + ' eye, and one ' + colour2 + ' eye'
+        else:
+            colour = colour + ' eyes'
         return colour
 
     def convert_history(self, died_by, scar_events):
