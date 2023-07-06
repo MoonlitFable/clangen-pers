@@ -89,8 +89,10 @@ ipython_config.py
 # Saves
 saves/
 saves/clanlist.txt
+saves/settings.txt
 saves\
 saves\clanlist.txt
+saves\settings.txt
 
 # Logs
 logs/

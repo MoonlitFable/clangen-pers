@@ -1635,17 +1635,17 @@ class AllegiancesScreen(Screens):
                     continue
                 kittens = []
                 for k in queen_dict[q]:
-                    kittens += [f"{k.name} - {k.describe_cat(short=True)}"]
+                    kittens += [f"<b>{str(k.name).upper()}</b>" + "\n" + f"{k.describe_cat(short=True)}"]
                 if len(kittens) == 1:
-                    kittens = f" <i>(caring for {kittens[0]})</i>"
+                    kittens = "\n" + f"   <b><u>Caring for:</u></b>" + "\n" + f"{kittens[0]})"
                 else:
-                    kittens = f" <i>(caring for {', '.join(kittens[:-1])}, and {kittens[-1]})</i>"
+                    kittens = "\n" + f"   <b><u>Caring for:</u></b>" + "\n" + "\n".join(kittens[:-1]) + "\n" + f"{kittens[-1]}"
 
                 all_entries.append(self.generate_one_entry(queen, kittens))
 
             #Now kittens without carers
             for k in living_kits:
-                all_entries.append(f"{str(k.name).upper()} - {k.describe_cat(short=True)}")
+                all_entries.append(f"<b>{str(k.name).upper()}</b>" + "\n" + f"{k.describe_cat(short=True)}")
 
             _box[1] = "\n".join(all_entries)
             outputs.append(_box)

@@ -1063,7 +1063,7 @@ class Pelt():
             if len(cat.pelt.scars) >= 3:
                 color_name = f"scarred {color_name}"
             if cat.pelt.length == "long":
-                color_name = f"long-furred {color_name}"
+                color_name = f"long-furred, {color_name}"
 
         return color_name
     
