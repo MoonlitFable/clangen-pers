@@ -113,7 +113,7 @@
             "ambitious"
         ],
         "fail_trait": [
-            "bloodthirsty"
+            "vicious"
         ],
         "min_cats": 2,
         "max_cats": 3,
@@ -347,7 +347,7 @@
         "fail_trait": [
             "troublesome",
             "vengeful",
-            "bloodthirsty",
+            "vicious",
             "bold"
         ],
         "min_cats": 2,
@@ -404,7 +404,7 @@
         "fail_trait": [
             "troublesome",
             "vengeful",
-            "bloodthirsty",
+            "vicious",
             "bold"
         ],
         "min_cats": 4,
@@ -462,7 +462,7 @@
         "fail_trait": [
             "troublesome",
             "vengeful",
-            "bloodthirsty",
+            "vicious",
             "bold"
         ],
         "min_cats": 1,

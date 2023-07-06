@@ -58,7 +58,7 @@
       "general_backstory",
       "adventurous",
       "ambitious",
-      "bloodthirsty",
+      "vicious",
       "bold",
       "daring",
       "confident",
@@ -294,7 +294,7 @@
       "general_leader",
       "general_backstory",
       "adventurous",
-      "bloodthirsty",
+      "vicious",
       "bold",
       "daring",
       "childish",
@@ -439,7 +439,7 @@
       "general_leader",
       "general_backstory",
       "ambitious",
-      "bloodthirsty",
+      "vicious",
       "bold",
       "daring",
       "confident",
@@ -461,7 +461,7 @@
       "general_leader",
       "general_backstory",
       "ambitious",
-      "bloodthirsty",
+      "vicious",
       "bold",
       "daring",
       "fierce",
@@ -867,7 +867,7 @@
       "general_parents",
       "general_leader",
       "general_backstory",
-      "bloodthirsty"
+      "vicious"
     ],
     "To gain access to both life-saving herbs and life-threatening poisons, m_c decides to become a medicine cat, and is apprenticed to (mentor)."
   ],
@@ -1484,7 +1484,7 @@
       "general_parents",
       "general_leader",
       "general_backstory",
-      "bloodthirsty"
+      "vicious"
     ],
     "StarClan gives {PRONOUN/m_c/object} wisdom, {PRONOUN/m_c/poss} Clan gives {PRONOUN/m_c/object} strength. (old_name) will use this power to heal {PRONOUN/m_c/poss} warriors well after battle. {PRONOUN/m_c/subject/CAP} {VERB/m_c/are/is} now m_c, and {VERB/m_c/swear/swears} to never turn away from what needs doing."
   ],
@@ -2096,7 +2096,7 @@
       "general_parents",
       "yes_leader",
       "general_backstory",
-      "bloodthirsty"
+      "vicious"
     ],
     "Although (old_name)'s eagerness to fight has left l_n a little worried before, {PRONOUN/l_n/subject} {VERB/m_c/know/knows} that the Clan can count on (old_name)'s bravery and sharp claws when they need them the most. In honor of {PRONOUN/m_c/poss} r_h, (old_name) is given the name m_c."
   ],

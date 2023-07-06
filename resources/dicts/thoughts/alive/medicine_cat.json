@@ -31,29 +31,19 @@
         ]
     },
     {
-        "id": "bloodthirsty_medicine_cat",
+        "id": "vicious_medicine_cat",
         "thoughts": [
-            "Is gathering deathberries",
-            "Has been disappearing a lot lately",
-            "Insists only on treating cats who need it",
             "Is ripping some leaves to shreds",
-            "Debates becoming a warrior",
-            "Gives the wrong herbs to a warrior on purpose",
-            "Wishes {PRONOUN/m_c/subject} {VERB/m_c/weren't/wasn't} confined to this life",
             "Is stocking up on deathberries",
             "Is stocking up on yew berries",
             "Is stocking up on nightshade",
             "Is stocking up on watermint",
-            "Put herbs in prey to give cats stomachaches",
-            "Refused to treat anyone today",
-            "Is upset that {PRONOUN/m_c/subject} can't fight alongside the warriors",
             "Wishes to fight alongside the warriors",
             "Thinks {PRONOUN/m_c/subject}'d be an amazing leader",
-            "Talks to the leader and deputy about war",
-            "Ignores the low herb stocks, instead practicing battle moves"
+            "Talks to the leader and deputy about war"
         ],
         "main_trait_constraint": [
-            "bloodthirsty"
+            "vicious"
         ]
     },
     {

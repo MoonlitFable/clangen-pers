@@ -25,9 +25,9 @@
         "As m_c dreams that night, {PRONOUN/m_c/subject} {VERB/m_c/find/finds} {PRONOUN/m_c/self} walking the stars of Silverpelt, a ghostly landscape surrounding {PRONOUN/m_c/object} and a single, starry cat sat within a clearing."
       ]
     },
-    "bloodthirsty": {
+    "vicious": {
       "tags": [],
-      "lead_trait": ["bloodthirsty"],
+      "lead_trait": ["vicious"],
       "text": [
             "m_c leaves to speak with StarClan. {PRONOUN/m_c/subject/CAP} {VERB/m_c/close/closes} {PRONOUN/m_c/poss} eyes and {VERB/m_c/awaken/awakens} under a vast, inky black sky. {PRONOUN/m_c/subject/CAP} {VERB/m_c/turn/turns} around to see a wary group of cats approaching, stars dotting their fur."
       ]
@@ -119,9 +119,9 @@
       ]
     },
     
-    "benevolent_adult_bloodthirsty_lead": {
+    "benevolent_adult_vicious_lead": {
       "tags": [],
-      "lead_trait": ["bloodthirsty"],
+      "lead_trait": ["vicious"],
       "star_trait": ["faithful", "loving", "responsible", "thoughtful", "wise", "charismatic"],
       "rank": ["warrior", "elder", "medicine cat", "mediator", "apprentice", "deputy", "medicine cat apprentice", "mediator apprentice"],
       "life_giving": [
@@ -152,9 +152,9 @@
         }
       ]
     },
-    "warrior_bloodthirsty_lead": {
+    "warrior_vicious_lead": {
       "tags": [],
-      "lead_trait": ["bloodthirsty"],
+      "lead_trait": ["vicious"],
       "star_trait": [],
       "rank": ["warrior", "deputy"],
       "life_giving": [
@@ -795,9 +795,9 @@
         }
       ]
     },
-    "kit_bloodthirsty_lead": {
+    "kit_vicious_lead": {
       "tags": [],
-      "lead_trait": ["bloodthirsty"],
+      "lead_trait": ["vicious"],
       "star_trait": [],
       "rank": ["kitten"],
       "life_giving": [
@@ -859,9 +859,9 @@
         }
       ]
     },
-    "app_bloodthirsty_lead": {
+    "app_vicious_lead": {
       "tags": [],
-      "lead_trait": ["bloodthirsty"],
+      "lead_trait": ["vicious"],
       "star_trait": [],
       "rank": ["apprentice", "medicine cat apprentice", "mediator apprentice"],
       "life_giving": [
@@ -897,9 +897,9 @@
         }
       ]
     },
-    "elder_bloodthirsty_lead": {
+    "elder_vicious_lead": {
       "tags": [],
-      "lead_trait": ["bloodthirsty"],
+      "lead_trait": ["vicious"],
       "star_trait": [],
       "rank": ["elder"],
       "life_giving": [
@@ -922,9 +922,9 @@
         }
       ]
     },
-    "med_bloodthirsty_lead": {
+    "med_vicious_lead": {
       "tags": [],
-      "lead_trait": ["bloodthirsty"],
+      "lead_trait": ["vicious"],
       "star_trait": [],
       "rank": ["medicine cat"],
       "life_giving": [
@@ -960,9 +960,9 @@
       ]
     },
 
-    "leader_bloodthirsty_lead": {
+    "leader_vicious_lead": {
       "tags": [],
-      "lead_trait": ["bloodthirsty"],
+      "lead_trait": ["vicious"],
       "star_trait": [],
       "rank": ["leader"],
       "life_giving": [
@@ -972,9 +972,9 @@
         }
       ]
     },
-    "leader_ancient_bloodthirsty_lead": {
+    "leader_ancient_vicious_lead": {
       "tags": ["old_leader"],
-      "lead_trait": ["bloodthirsty"],
+      "lead_trait": ["vicious"],
       "star_trait": [],
       "rank": ["leader"],
       "life_giving": [
@@ -1003,9 +1003,9 @@
       ]
     },
 
-    "bloodthirsty": {
+    "vicious": {
       "tags": [],
-      "lead_trait": ["bloodthirsty"],
+      "lead_trait": ["vicious"],
       "text": [
         "r_c hails m_c by {PRONOUN/m_c/poss} new name, m_c_star, telling {PRONOUN/m_c/object} that {PRONOUN/m_c/poss} old life is no more. {PRONOUN/m_c/subject/CAP} {VERB/m_c/are/is} granted guardianship of c_n, and are told to use {PRONOUN/m_c/poss} new power wisely. StarClan is silent as the new leader begins to wake up. m_c_star stands, feeling a new strength within {PRONOUN/m_c/poss} body, and grins."
       ]

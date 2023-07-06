@@ -11,7 +11,7 @@ from scripts.utility import get_highest_romantic_relation, get_personality_compa
 class TestPersonalityCompatibility(unittest.TestCase):
 
     current_traits = [
-        'adventurous', 'altruistic', 'ambitious', 'bloodthirsty', 'bold',
+        'adventurous', 'altruistic', 'ambitious', 'vicious', 'bold',
         'calm', 'careful', 'charismatic', 'childish', 'cold', 'compassionate',
         'confident', 'daring', 'empathetic', 'faithful', 'fierce', 'insecure',
         'lonesome', 'loving', 'loyal', 'nervous', 'patient', 'playful',

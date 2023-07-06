@@ -60,7 +60,7 @@ class Cat():
         "leader"
     ]
 
-    gender_tags = {'female': 'F', 'male': 'M'}
+    gender_tags = {'molly': 'F', 'tom': 'M'}
 
     # EX levels and ranges.
     # Ranges are inclusive to both bounds
@@ -272,7 +272,7 @@ class Cat():
 
         # sex!?!??!?!?!??!?!?!?!??
         if self.gender is None:
-            self.gender = choice(["female", "male"])
+            self.gender = choice(["molly", "tom"])
         self.g_tag = self.gender_tags[self.gender]
 
         # These things should only run when generating a new cat, rather than loading one in.
@@ -280,26 +280,26 @@ class Cat():
             # trans cat chances
             trans_chance = randint(0, 50)
             nb_chance = randint(0, 75)
-            if self.gender == "female" and not self.status in ['newborn', 'kitten']:
+            if self.gender == "molly" and not self.status in ['newborn', 'kitten']:
                 if trans_chance == 1:
-                    self.genderalign = "trans male"
+                    self.genderalign = "trans tom"
                 elif nb_chance == 1:
-                    self.genderalign = "nonbinary"
+                    self.genderalign = "darby"
                 else:
                     self.genderalign = self.gender
-            elif self.gender == "male" and not self.status in ['newborn', 'kitten']:
+            elif self.gender == "tom" and not self.status in ['newborn', 'kitten']:
                 if trans_chance == 1:
-                    self.genderalign = "trans female"
+                    self.genderalign = "trans molly"
                 elif nb_chance == 1:
-                    self.genderalign = "nonbinary"
+                    self.genderalign = "darby"
                 else:
                     self.genderalign = self.gender
             else:
                 self.genderalign = self.gender
 
-            """if self.genderalign in ["female", "trans female"]:
+            """if self.genderalign in ["molly", "trans molly"]:
                 self.pronouns = [self.default_pronouns[1].copy()]
-            elif self.genderalign in ["male", "trans male"]:
+            elif self.genderalign in ["tom", "trans tom"]:
                 self.pronouns = [self.default_pronouns[2].copy()]"""
 
             # APPEARANCE
@@ -481,7 +481,7 @@ class Cat():
         ]
         # minor, cat will patrol
         grief_minor = [
-            'daring', 'cold', 'bold', 'ambitious', 'bloodthirsty', 'responsible', 'loyal', 'strict', 'vengeful'
+            'daring', 'cold', 'bold', 'ambitious', 'vicious', 'responsible', 'loyal', 'strict', 'vengeful'
         ]
 
         text = None

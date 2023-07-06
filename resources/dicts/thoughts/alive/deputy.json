@@ -48,13 +48,12 @@
         ]
     },
     {
-        "id": "bloodthirsty_deputy_to_gen",
+        "id": "vicious_deputy_to_gen",
         "thoughts": [
-            "Thinks about killing the leader and staging it as an accident",
             "Encourages the leader to start a war"
         ],
         "main_trait_constraint": [
-            "bloodthirsty"
+            "vicious"
         ]
     },
     {

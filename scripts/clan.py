@@ -1357,7 +1357,7 @@ class Clan():
         elif 5 <= clan_sociability:
             _temperament = ['amiable', 'stoic', 'wary']
         else:
-            _temperament = ['cunning', 'proud', 'bloodthirsty']
+            _temperament = ['cunning', 'proud', 'vicious']
             
         if 12 <= clan_aggression:
             _temperament = _temperament[2]
@@ -1383,7 +1383,7 @@ class OtherClan():
     def __init__(self, name='', relations=0, temperament=''):
         temperament_list = [
             'cunning', 'wary', 'logical', 'proud', 'stoic', 'mellow',
-            'bloodthirsty', 'amiable', 'gracious'
+            'vicious', 'amiable', 'gracious'
         ]
         self.name = name or choice(names.names_dict["normal_prefixes"])
         self.relations = relations or randint(8, 12)

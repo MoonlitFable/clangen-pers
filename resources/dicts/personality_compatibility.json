@@ -2,7 +2,7 @@
     "adventurous": {
         "altruistic": null,
         "ambitious": null,
-        "bloodthirsty": null,
+        "vicious": null,
         "bold": true,
         "calm": false,
         "careful": false,
@@ -35,7 +35,7 @@
     },
     "altruistic": {
         "ambitious": false,
-        "bloodthirsty": false,
+        "vicious": false,
         "bold": false,
         "calm": true,
         "careful": true,
@@ -67,7 +67,7 @@
         "wise": true
     },
     "ambitious": {
-        "bloodthirsty": true,
+        "vicious": true,
         "bold": true,
         "calm": null,
         "careful": null,
@@ -98,7 +98,7 @@
         "vengeful": false,
         "wise": null
     },
-    "bloodthirsty": {
+    "vicious": {
         "bold": true,
         "calm": null,
         "careful": false,

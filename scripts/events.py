@@ -905,7 +905,7 @@ class Events:
                     break
             
             threshold = 5
-            if enemy_clan.temperament == 'bloodthirsty':
+            if enemy_clan.temperament == 'vicious':
                 threshold = 10
             if enemy_clan.temperament in ["mellow", "amiable", "gracious"]:
                 threshold = 3
@@ -935,7 +935,7 @@ class Events:
         else:  # try to start a war if no war in progress
             for other_clan in game.clan.all_clans:
                 threshold = 5
-                if other_clan.temperament == 'bloodthirsty':
+                if other_clan.temperament == 'vicious':
                     threshold = 10
                 if other_clan.temperament in ["mellow", "amiable", "gracious"]:
                     threshold = 3
@@ -988,7 +988,7 @@ class Events:
                 game.clan.new_leader(game.clan.deputy)
                 game.clan.leader_lives = 9
                 text = ''
-                if game.clan.deputy.personality.trait == 'bloodthirsty':
+                if game.clan.deputy.personality.trait == 'vicious':
                     text = f'{game.clan.deputy.name} has become the new leader. ' \
                            f'They stare down at their Clanmates with unsheathed claws, ' \
                            f'promising a new era for the Clans.'
@@ -2038,20 +2038,20 @@ class Events:
                 return
 
             if random.getrandbits(1):  # 50/50
-                if cat.gender == "male":
-                    cat.genderalign = "trans female"
+                if cat.gender == "tom":
+                    cat.genderalign = "trans molly"
                     # cat.pronouns = [cat.default_pronouns[1].copy()]
                 else:
-                    cat.genderalign = "trans male"
+                    cat.genderalign = "trans tom"
                     # cat.pronouns = [cat.default_pronouns[2].copy()]
             else:
-                cat.genderalign = "nonbinary"
+                cat.genderalign = "darby"
                 # cat.pronouns = [cat.default_pronouns[0].copy()]
 
-            if cat.gender == 'male':
+            if cat.gender == 'tom':
                 gender = 'tom'
             else:
-                gender = 'she-cat'
+                gender = 'molly'
             text = f"{cat.name} has realized that {gender} doesn't describe how they feel anymore."
             game.cur_events_list.append(
                 Single_Event(text, "misc", involved_cats))
@@ -2118,7 +2118,7 @@ class Events:
 
                     if leader_status == "here" and deputy_status == "not_here":
 
-                        if random_cat.personality.trait == 'bloodthirsty':
+                        if random_cat.personality.trait == 'vicious':
                             text = f"{random_cat.name} has been chosen as the new deputy. " \
                                    f"They look at the Clan leader with an odd glint in their eyes."
                             # No additional involved cats

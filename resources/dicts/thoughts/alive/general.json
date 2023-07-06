@@ -395,7 +395,6 @@
             "Is relaxing in camp",
             "Is daydreaming",
             "Is napping",
-            "Thinks {PRONOUN/m_c/subject}{VERB/m_c/'re/'s} going crazy",
             "Is feeling gloomy",
             "Is looking around camp",
             "Is feeling happy!",
@@ -1214,7 +1213,7 @@
         ]
     },
     {
-        "id": "bloodthirsty_apprentices",
+        "id": "vicious_apprentices",
         "thoughts": [
             "Starts a fight with another apprentice"
         ],
@@ -1224,7 +1223,7 @@
             "medicine cat apprentice"
         ],
         "main_trait_constraint": [
-            "bloodthirsty"
+            "vicious"
         ]
     },
     {

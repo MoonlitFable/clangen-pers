@@ -326,7 +326,7 @@ class Pelt():
                 eye_choice = choice([Pelt.yellow_eyes, Pelt.blue_eyes])
                 self.eye_colour2 = choice(eye_choice)
 
-    def pattern_color_inheritance(self, parents: tuple=(), gender="female"):
+    def pattern_color_inheritance(self, parents: tuple=(), gender="molly"):
         # setting parent pelt categories
         #We are using a set, since we don't need this to be ordered, and sets deal with removing duplicates.
         par_peltlength = set()
@@ -420,7 +420,7 @@ class Pelt():
                 break
 
         # Determine tortie:
-        if gender == "female":
+        if gender == "molly":
             torbie = random.getrandbits(tortie_chance_f) == 1
         else:
             torbie = random.getrandbits(tortie_chance_m) == 1
@@ -536,7 +536,7 @@ class Pelt():
         # There is a default chance for female tortie, slightly increased for completely random generation.
         tortie_chance_f = game.config["cat_generation"]["base_female_tortie"] - 1
         tortie_chance_m = game.config["cat_generation"]["base_male_tortie"]
-        if gender == "female":
+        if gender == "molly":
             torbie = random.getrandbits(tortie_chance_f) == 1
         else:
             torbie = random.getrandbits(tortie_chance_m) == 1
@@ -1028,12 +1028,12 @@ class Pelt():
             color_name = color_name.replace("white and white", "white")
 
         # Now it's time for gender
-        if cat.genderalign in ["female", "trans female"]:
-            color_name = f"{color_name} she-cat"
-        elif cat.genderalign in ["male", "trans male"]:
+        if cat.genderalign in ["molly", "trans molly"]:
+            color_name = f"{color_name} molly"
+        elif cat.genderalign in ["tom", "trans tom"]:
             color_name = f"{color_name} tom"
         else:
-            color_name = f"{color_name} cat"
+            color_name = f"{color_name} darby"
 
         # Here is the place where we can add some additional details about the cat, for the full non-short one. 
         # These include notable missing limbs, vitiligo, long-furred-ness, and 3 or more scars. 

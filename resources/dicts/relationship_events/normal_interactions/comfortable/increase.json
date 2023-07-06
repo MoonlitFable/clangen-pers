@@ -202,7 +202,7 @@
 		"id": "comfort_inc_high2",
 		"intensity": "high",
 		"interactions": [
-			"m_c is sharing tongues with r_c.",
+			"m_c is sunbathing with r_c.",
 			"m_c offers to groom a hard-to-reach place for r_c, who thanks {PRONOUN/m_c/object} earnestly."
 		],
 		"reaction_random_cat": {

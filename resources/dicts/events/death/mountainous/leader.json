@@ -86,7 +86,7 @@
         "cat_trait": [
             "altruistic",
             "bold",
-            "bloodthirsty",
+            "vicious",
             "ambitious",
             "daring",
             "confident",
@@ -127,7 +127,7 @@
         "cat_trait": [
             "altruistic",
             "bold",
-            "bloodthirsty",
+            "vicious",
             "ambitious",
             "daring",
             "confident",
@@ -276,7 +276,7 @@
         "cat_trait": null,
         "cat_skill": null,
         "other_cat_trait": [
-            "bloodthirsty",
+            "vicious",
             "vengeful",
             "ambitious",
             "sneaky"

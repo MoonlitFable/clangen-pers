@@ -156,61 +156,61 @@
 		"parent_buff": {
 			"kit_to_parent": {
 				"romantic": 0,
-				"platonic": 40,
+				"platonic": 50,
 				"dislike": 0,
-				"admiration": 30,
-				"comfortable": 40,
+				"admiration": 50,
+				"comfortable": 50,
 				"jealousy": 0,
 				"trust": 50
 			},
 			"parent_to_kit": {
 				"romantic": 0,
-				"platonic": 40,
+				"platonic": 50,
 				"dislike": 0,
-				"admiration": 30,
-				"comfortable": 40,
+				"admiration": 50,
+				"comfortable": 50,
 				"jealousy": 0,
-				"trust": 30
+				"trust": 50
 			}
 		},
 		"sib_buff": {
 			"cat1_to_cat2": {
 				"romantic": 0,
-				"platonic": 40,
+				"platonic": 50,
 				"dislike": 0,
-				"admiration": 10,
-				"comfortable": 40,
+				"admiration": 50,
+				"comfortable": 50,
 				"jealousy": 0,
-				"trust": 30
+				"trust": 50
 			},
 			"cat2_to_cat1": {
 				"romantic": 0,
-				"platonic": 40,
+				"platonic": 50,
 				"dislike": 0,
-				"admiration": 10,
-				"comfortable": 40,
+				"admiration": 50,
+				"comfortable": 50,
 				"jealousy": 0,
-				"trust": 30
+				"trust": 50
 			}
 		},
 		"rel_buff":{
 			"new_to_clan_cat": {
 				"romantic": 0,
-				"platonic": 15,
+				"platonic": 10,
 				"dislike": 0,
 				"admiration": 10,
-				"comfortable": 15,
+				"comfortable": 5,
 				"jealousy": 0,
-				"trust": 15
+				"trust": -5
 			},
 			"clan_cat_to_new":{
 				"romantic": 0,
-				"platonic": 15,
+				"platonic": 10,
 				"dislike": 0,
-				"admiration": 5,
-				"comfortable": 10,
+				"admiration": 10,
+				"comfortable": 5,
 				"jealousy": 0,
-				"trust": 10
+				"trust": 0
 			}
 		},
 		"cat_amount_welcoming": 3
@@ -220,7 +220,7 @@
 		"primary_chance_mated": 80,
 		"primary_chance_unmated": 130,
 		"random_affair_chance": 50,
-		"unmated_random_affair_chance": 10,
+		"unmated_random_affair_chance": 100,
 		"one_kit_possibility": {"young adult": 8, "adult": 9, "senior adult": 10, "senior": 4},
         "two_kit_possibility": {"young adult": 10, "adult": 13, "senior adult": 15, "senior": 3},
         "three_kit_possibility": {"young adult": 17, "adult": 15, "senior adult": 5, "senior": 1},
@@ -238,7 +238,7 @@
 		]
 	},
 	"cat_generation": {
-		"base_permanent_condition": 90,
+		"base_permanent_condition": 75,
 		"base_male_tortie": 13,
 		"base_female_tortie": 4,
 		"base_heterochromia": 120,
@@ -248,8 +248,8 @@
 		"random_point_chance": 5
 	},
 	"cat_name_controls": {
-		"always_name_after_appearance": false,
-		"allow_eye_names": true,
+		"always_name_after_appearance": true,
+		"allow_eye_names": false,
 		"comment": [
 			"Set always_name_after_appearance to true if you always want cats named after the color of their pelt.",
 			"This overrides the chances of it otherwise. If cats can't find a pelt color, they will choose from normal_prefixes",
@@ -258,7 +258,7 @@
 		]
 	},
 	"accessory_generation": {
-		"base_acc_chance": 150,
+		"base_acc_chance": 125,
 		"med_modifier": -80,
 		"baby_modifier": -20,
 		"elder_modifier": 20,
@@ -335,7 +335,7 @@
 		"war_injury_modifier": 100
 	},
 	"clan_creation": {
-		"rerolls": 3,
+		"rerolls": -1,
 		"comment": "Set this to -1 for it to be infinite"
 	},
 	"graduation": {
@@ -343,8 +343,8 @@
 		"base_med_app_timeskip_ex": [[2, 7],[2, 3]],
 		"max_apprentice_age": {
 			"medicine cat apprentice": 30,
-			"apprentice": 25,
-			"mediator apprentice": 25
+			"apprentice": 24,
+			"mediator apprentice": 27
 		},
 		"min_graduating_age": 10
 	},

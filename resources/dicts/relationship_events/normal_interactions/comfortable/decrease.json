@@ -61,7 +61,7 @@
 			"r_c started a fight with m_c."
 		],
 		"random_trait_constraint": [
-			"bloodthirsty"
+			"vicious"
 		]
 	},
 	{
@@ -113,7 +113,7 @@
 			"m_c doesn't like the way r_c seems to overwhelm the camp with {PRONOUN/r_c/poss} presence."
 		],
 		"random_trait_constraint": [
-			"bloodthirsty",
+			"vicious",
 			"cold",
 			"vengeful"
 		]
@@ -127,7 +127,7 @@
 			"m_c thinks that r_c is casting a dark shadow over the whole Clan's reputation."
 		],
 		"random_trait_constraint": [
-			"bloodthirsty",
+			"vicious",
 			"cold",
 			"vengeful"
 		],
@@ -145,7 +145,7 @@
 			"m_c is startled at r_c's views on sharing herbs with other Clans."
 		],
 		"random_trait_constraint": [
-			"bloodthirsty",
+			"vicious",
 			"cold",
 			"vengeful"
 		],

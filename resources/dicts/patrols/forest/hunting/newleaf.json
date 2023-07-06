@@ -540,7 +540,7 @@
         "fail_trait": [
             "troublesome",
             "vengeful",
-            "bloodthirsty",
+            "vicious",
             "bold"
         ],
         "min_cats": 2,
@@ -600,7 +600,7 @@
         "fail_trait": [
             "troublesome",
             "vengeful",
-            "bloodthirsty",
+            "vicious",
             "bold"
         ],
         "min_cats": 4,
@@ -661,7 +661,7 @@
         "fail_trait": [
             "troublesome",
             "vengeful",
-            "bloodthirsty",
+            "vicious",
             "bold"
         ],
         "min_cats": 1,
@@ -723,7 +723,7 @@
         "fail_trait": [
             "troublesome",
             "vengeful",
-            "bloodthirsty",
+            "vicious",
             "bold"
         ],
         "min_cats": 2,
@@ -778,7 +778,7 @@
         "fail_trait": [
             "troublesome",
             "vengeful",
-            "bloodthirsty",
+            "vicious",
             "bold"
         ],
         "min_cats": 4,
@@ -835,7 +835,7 @@
         "fail_trait": [
             "troublesome",
             "vengeful",
-            "bloodthirsty",
+            "vicious",
             "bold"
         ],
         "min_cats": 1,
@@ -887,7 +887,7 @@
             "adventurous",
             "altruistic",
             "ambitious",
-            "bloodthirsty",
+            "vicious",
             "bold",
             "confident",
             "daring",
@@ -945,7 +945,7 @@
             "adventurous",
             "altruistic",
             "ambitious",
-            "bloodthirsty",
+            "vicious",
             "bold",
             "confident",
             "daring",
@@ -1001,7 +1001,7 @@
             "adventurous",
             "altruistic",
             "ambitious",
-            "bloodthirsty",
+            "vicious",
             "bold",
             "confident",
             "daring",
@@ -1058,7 +1058,7 @@
             "adventurous",
             "altruistic",
             "ambitious",
-            "bloodthirsty",
+            "vicious",
             "bold",
             "confident",
             "daring",
@@ -1113,7 +1113,7 @@
             "adventurous",
             "altruistic",
             "ambitious",
-            "bloodthirsty",
+            "vicious",
             "bold",
             "confident",
             "daring",
@@ -1166,7 +1166,7 @@
             "adventurous",
             "altruistic",
             "ambitious",
-            "bloodthirsty",
+            "vicious",
             "bold",
             "confident",
             "daring",

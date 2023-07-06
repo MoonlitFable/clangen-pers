@@ -153,7 +153,7 @@
         "cat_trait": [
             "altruistic",
             "bold",
-            "bloodthirsty",
+            "vicious",
             "ambitious",
             "daring",
             "confident",
@@ -191,7 +191,7 @@
         "cat_trait": [
             "altruistic",
             "bold",
-            "bloodthirsty",
+            "vicious",
             "ambitious",
             "daring",
             "confident",
@@ -229,7 +229,7 @@
         "cat_trait": [
             "altruistic",
             "bold",
-            "bloodthirsty",
+            "vicious",
             "ambitious",
             "daring",
             "confident",
@@ -366,7 +366,7 @@
         "cat_trait": [
             "altruistic",
             "bold",
-            "bloodthirsty",
+            "vicious",
             "ambitious",
             "compassionate",
             "daring",
@@ -409,7 +409,7 @@
         "cat_trait": [
             "altruistic",
             "bold",
-            "bloodthirsty",
+            "vicious",
             "ambitious",
             "compassionate",
             "daring",
@@ -988,7 +988,7 @@
             "vengeful"
         ],
         "other_cat_trait": [
-            "bloodthirsty",
+            "vicious",
             "vengeful",
             "ambitious",
             "sneaky"
@@ -1017,7 +1017,7 @@
         "other_cat_trait": [
             "vengeful",
             "ambitious",
-            "bloodthirsty",
+            "vicious",
             "righteous",
             "fierce",
             "cold",
@@ -1059,7 +1059,7 @@
         "other_cat_trait": [
             "vengeful",
             "ambitious",
-            "bloodthirsty",
+            "vicious",
             "righteous",
             "fierce",
             "cold",
@@ -1091,7 +1091,7 @@
         ],
         "other_cat_trait": [
             "vengeful",
-            "bloodthirsty",
+            "vicious",
             "fierce",
             "daring",
             "bold"
@@ -1156,7 +1156,7 @@
         },
         "cat_trait": [
             "vengeful",
-            "bloodthirsty",
+            "vicious",
             "loving",
             "bold",
             "confident",

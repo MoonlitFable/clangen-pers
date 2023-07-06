@@ -196,7 +196,7 @@ class Pregnancy_Events():
 
         # even with no_gendered_breeding on a male cat with no second parent should not be count as pregnant
         # instead, the cat should get the kit instantly
-        if not other_cat and cat.gender == 'male':
+        if not other_cat and cat.gender == 'tom':
             amount = self.get_amount_of_kits(cat)
             kits = self.get_kits(amount, cat, None, clan)
             insert = 'this should not display'
@@ -214,7 +214,7 @@ class Pregnancy_Events():
         # if the other cat is a female and the current cat is a male, make the female cat pregnant
         pregnant_cat = cat
         second_parent = other_cat
-        if cat.gender == 'male' and other_cat is not None and other_cat.gender == 'female':
+        if cat.gender == 'tom' and other_cat is not None and other_cat.gender == 'molly':
             pregnant_cat = other_cat
             second_parent = cat
 
@@ -608,7 +608,7 @@ class Pregnancy_Events():
         blood_parent = None
          
         ##### SELECT BACKSTORY #####
-        if cat and cat.gender == 'female':
+        if cat and cat.gender == 'molly':
             backstory = choice(['halfclan1', 'outsider_roots1'])
         elif cat:
             backstory = choice(['halfclan2', 'outsider_roots2'])
@@ -661,9 +661,9 @@ class Pregnancy_Events():
                 # Two parents provided
                 kit = Cat(parent1=cat.ID, parent2=other_cat.ID, moons=0, status='newborn')
                 
-                if cat.gender == 'female':
+                if cat.gender == 'molly':
                     kit.thought = f"Snuggles up to the belly of {cat.name}"
-                elif cat.gender == 'male' and other_cat.gender == 'male':
+                elif cat.gender == 'tom' and other_cat.gender == 'tom':
                     kit.thought = f"Snuggles up to the belly of {cat.name}"
                 else:
                     kit.thought = f"Snuggles up to the belly of {other_cat.name}"

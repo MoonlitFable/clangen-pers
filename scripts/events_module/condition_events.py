@@ -120,7 +120,7 @@ class Condition_Events():
                                             "daring",
                                             "confident",
                                             "ambitious",
-                                            "bloodthirsty",
+                                            "vicious",
                                             "fierce",
                                             "strict",
                                             "troublesome",

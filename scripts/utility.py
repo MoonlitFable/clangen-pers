@@ -53,9 +53,9 @@ def get_alive_clan_queens(cat_cls):
         if len(alive_parents) == 1:
             queens.append(alive_parents[0])
         elif len(alive_parents) == 2:
-            if alive_parents[0].gender == "female":
+            if alive_parents[0].gender == "molly":
                 queens.append(alive_parents[0])
-            elif alive_parents[1].gender == "female":
+            elif alive_parents[1].gender == "molly":
                 queens.append(alive_parents[1])
             else:
                 queens.append(alive_parents[0])
@@ -287,7 +287,7 @@ def create_new_cat(Cat,
     for index in range(number_of_cats):
         # setting gender
         if not gender:
-            _gender = choice(['female', 'male'])
+            _gender = choice(['molly', 'tom'])
         else:
             _gender = gender
 
@@ -432,7 +432,7 @@ def create_outside_cat(Cat, status, backstory, alive=True, thought=None):
     new_cat = Cat(prefix=name,
                   suffix=suffix,
                   status=status,
-                  gender=choice(['female', 'male']),
+                  gender=choice(['molly', 'tom']),
                   backstory=backstory)
     if status == 'kittypet':
         new_cat.pelt.accessory = choice(Pelt.collars)

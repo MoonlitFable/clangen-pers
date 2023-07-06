@@ -494,7 +494,7 @@
         ],
         "win_trait": [
             "ambitious",
-            "bloodthirsty",
+            "vicious",
             "cold",
             "fierce",
             "shameless",
@@ -545,7 +545,7 @@
         ],
         "win_trait": [
             "ambitious",
-            "bloodthirsty",
+            "vicious",
             "cold",
             "fierce",
             "shameless",
@@ -596,7 +596,7 @@
         ],
         "win_trait": [
             "ambitious",
-            "bloodthirsty",
+            "vicious",
             "cold",
             "fierce",
             "shameless",
@@ -1201,7 +1201,7 @@
             "unscathed_stat": "s_c convinces the patrol to let it go - the poor thing is clearly struggling so much already, this feels unfair."
         },
         "win_trait": [
-            "bloodthirsty",
+            "vicious",
             "cold",
             "fierce",
             "strict"
@@ -1240,7 +1240,7 @@
             "unscathed_stat": "s_c lets it go - the poor thing is clearly struggling so much already, this feels unfair."
         },
         "win_trait": [
-            "bloodthirsty",
+            "vicious",
             "cold",
             "fierce",
             "strict"
@@ -1523,7 +1523,7 @@
         "fail_trait": [
             "troublesome",
             "vengeful",
-            "bloodthirsty",
+            "vicious",
             "bold"
         ],
         "min_cats": 2,
@@ -1579,7 +1579,7 @@
         "fail_trait": [
             "troublesome",
             "vengeful",
-            "bloodthirsty",
+            "vicious",
             "bold"
         ],
         "min_cats": 4,
@@ -1636,7 +1636,7 @@
         "fail_trait": [
             "troublesome",
             "vengeful",
-            "bloodthirsty",
+            "vicious",
             "bold"
         ],
         "min_cats": 1,
@@ -1696,7 +1696,7 @@
         "fail_trait": [
             "troublesome",
             "vengeful",
-            "bloodthirsty",
+            "vicious",
             "bold"
         ],
         "min_cats": 2,
@@ -1749,7 +1749,7 @@
         "fail_trait": [
             "troublesome",
             "vengeful",
-            "bloodthirsty",
+            "vicious",
             "bold"
         ],
         "min_cats": 4,
@@ -1804,7 +1804,7 @@
         "fail_trait": [
             "troublesome",
             "vengeful",
-            "bloodthirsty",
+            "vicious",
             "bold"
         ],
         "min_cats": 1,
@@ -1867,7 +1867,7 @@
         "fail_trait": [
             "adventurous",
             "ambitious",
-            "bloodthirsty",
+            "vicious",
             "bold",
             "confident",
             "daring",
@@ -1935,7 +1935,7 @@
         "fail_trait": [
             "adventurous",
             "ambitious",
-            "bloodthirsty",
+            "vicious",
             "bold",
             "confident",
             "daring",
@@ -2002,7 +2002,7 @@
         "fail_trait": [
             "adventurous",
             "ambitious",
-            "bloodthirsty",
+            "vicious",
             "bold",
             "confident",
             "daring",
@@ -2071,7 +2071,7 @@
         "fail_trait": [
             "adventurous",
             "ambitious",
-            "bloodthirsty",
+            "vicious",
             "bold",
             "confident",
             "daring",
@@ -2140,7 +2140,7 @@
         "fail_trait": [
             "adventurous",
             "ambitious",
-            "bloodthirsty",
+            "vicious",
             "bold",
             "confident",
             "daring",
@@ -2202,7 +2202,7 @@
         "fail_trait": [
             "adventurous",
             "ambitious",
-            "bloodthirsty",
+            "vicious",
             "bold",
             "confident",
             "daring",

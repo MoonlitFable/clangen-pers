@@ -259,7 +259,7 @@
         "exp": 20,
         "success_text": {
             "unscathed_common": "p_l <i>mrrp</i>s with laughter, watching r_c parade around with such a big bundle of cobwebs that they keep colliding with things in their path they can't see. The entire patrol has gotten a wonderful haul, and it's a very pleased medicine cat that leads them back to camp.",
-            "unscathed_rare": "The patrol brings back a truly massive haul, and return in good humour, laughing as they set down their sticks of spun-up webbing in the medicine cat den. p_l joins everyone as they sit down to share tongues, ridding their pelts of dust and the odd spider as the cats catch up with each other and enjoy the day.",
+            "unscathed_rare": "The patrol brings back a truly massive haul, and return in good humour, laughing as they set down their sticks of spun-up webbing in the medicine cat den. p_l joins everyone as they sit down to groom one another, ridding their pelts of dust and the odd spider as the cats catch up with each other and enjoy the day.",
             "stat_skill": "s_c's keen eyes have a knack for spotting the gossamer-thin strands of cobwebs, and with the patrol there to follow their lead, it's a very successful gathering mission."
         },
         "fail_text": {

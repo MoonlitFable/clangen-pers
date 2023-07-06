@@ -119,7 +119,7 @@
 		],
 		"random_trait_constraint": [
 			"cold",
-			"bloodthirsty",
+			"vicious",
 			"vengeful"
 		]
 	},
@@ -136,7 +136,7 @@
 		],
 		"random_trait_constraint": [
 			"cold",
-			"bloodthirsty",
+			"vicious",
 			"vengeful"
 		]
 	}

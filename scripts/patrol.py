@@ -1188,9 +1188,9 @@ class Patrol():
         new_name = choice([True, False])
         kit_backstory = None
         if "_tom" in tags:
-            gender = 'male'
-        elif "_female" in tags:
-            gender = 'female'
+            gender = 'tom'
+        elif "_molly" in tags:
+            gender = 'molly'
         else:
             gender = None
         kit = False
@@ -1318,10 +1318,10 @@ class Patrol():
             age = randint(12, 115)
 
         # hand out genders
-        if "male" in attribute_list:
-            gender = 'male'
-        elif 'female' in attribute_list:
-            gender = 'female'
+        if "tom" in attribute_list:
+            gender = 'tom'
+        elif 'molly' in attribute_list:
+            gender = 'molly'
 
         # hand out death and outside
         if "dead" in attribute_list:
@@ -1342,7 +1342,7 @@ class Patrol():
         if f"litter{outcome}" in attribute_list:
             print('litter outcome checking')
             if not game.settings["same sex birth"]:
-                gender = 'female'
+                gender = 'molly'
             litter = True
             age = randint(23, 100)
             # make sure kittens get correct backstory
@@ -1466,7 +1466,7 @@ class Patrol():
             # giving the mother the necessary condition
             if game.clan.game_mode != 'classic' and kit_age <= 2 and not created_cats[0].dead:
                 if not game.settings["same sex birth"]:
-                    if created_cats[0].gender == 'female':
+                    if created_cats[0].gender == 'molly':
                         created_cats[0].get_injured("recovering from birth")
                 else:
                     created_cats[0].get_injured("recovering from birth")

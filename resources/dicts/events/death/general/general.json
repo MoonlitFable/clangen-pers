@@ -20,7 +20,7 @@
         "other_cat_trait": [
             "sneaky",
             "ambitious",
-            "bloodthirsty",
+            "vicious",
             "cold",
             "fierce",
             "vengeful",
@@ -56,7 +56,7 @@
         },
         "other_cat_trait": [
             "ambitious",
-            "bloodthirsty",
+            "vicious",
             "cold",
             "fierce",
             "vengeful",
@@ -91,7 +91,7 @@
         "other_cat_trait": [
             "vengeful",
             "ambitious",
-            "bloodthirsty",
+            "vicious",
             "fierce"
         ],
         "other_cat_skill": [
@@ -123,7 +123,7 @@
         "other_cat_trait": [
             "vengeful",
             "ambitious",
-            "bloodthirsty",
+            "vicious",
             "fierce",
             "sneaky"
         ],
@@ -156,7 +156,7 @@
             "reg_murder_unrevealed": "m_c was murdered by an unknown killer with deathberries."
         },
         "other_cat_trait": [
-            "bloodthirsty",
+            "vicious",
             "vengeful",
             "sneaky",
             "righteous"
@@ -186,7 +186,7 @@
             "reg_murder_unrevealed": "m_c was murdered by an unknown killer with foxglove seeds."
         },
         "other_cat_trait": [
-            "bloodthirsty",
+            "vicious",
             "vengeful",
             "sneaky",
             "righteous"
@@ -216,7 +216,7 @@
             "reg_murder_unrevealed": "m_c was murdered by an unknown killer with nightshade berries."
         },
         "other_cat_trait": [
-            "bloodthirsty",
+            "vicious",
             "vengeful",
             "sneaky",
             "righteous"
@@ -246,7 +246,7 @@
             "reg_murder_unrevealed": "m_c was murdered by an unknown killer with water hemlock."
         },
         "other_cat_trait": [
-            "bloodthirsty",
+            "vicious",
             "vengeful",
             "sneaky",
             "righteous"
@@ -276,7 +276,7 @@
             "reg_murder_unrevealed": "m_c was murdered by an unknown killer, by being fed incorrect herbs."
         },
         "other_cat_trait": [
-            "bloodthirsty",
+            "vicious",
             "vengeful",
             "sneaky",
             "righteous"
@@ -421,7 +421,7 @@
         },
         "cat_trait": [
             "vengeful",
-            "bloodthirsty",
+            "vicious",
             "loving",
             "bold",
             "confident",

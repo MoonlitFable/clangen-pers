@@ -31,9 +31,9 @@
         "As m_c dreams that night, {PRONOUN/m_c/subject} {VERB/m_c/find/finds} {PRONOUN/m_c/self} walking through darkness, mud and muck sticking to {PRONOUN/m_c/poss} paws. The world around {PRONOUN/m_c/object} is devoid of light, and bare branches claw at the empty sky above. A single, foreboding cat sits within a clearing."
       ]
     },
-    "bloodthirsty": {
+    "vicious": {
       "tags": [],
-      "lead_trait": ["bloodthirsty"],
+      "lead_trait": ["vicious"],
       "text": [
             "m_c leaves to speak with the Dark Forest. {PRONOUN/m_c/subject/CAP} {VERB/r_c/shut/shuts} {PRONOUN/m_c/poss} eyes and {VERB/m_c/awaken/awakens} under an oppressing darkness, devoid of the stars {PRONOUN/m_c/subject} left behind. {PRONOUN/m_c/subject/CAP} {VERB/m_c/turn/turns} around to see a shadowy group of cats approaching, triumph in their eyes."
       ]
@@ -90,7 +90,7 @@
     "abrasive_adult": {
       "tags": [],
       "lead_trait": [],
-      "star_trait": ["ambitious", "bloodthirsty", "cold", "fierce", "shameless", "strict", "troublesome", "vengeful"],
+      "star_trait": ["ambitious", "vicious", "cold", "fierce", "shameless", "strict", "troublesome", "vengeful"],
       "rank": ["warrior", "elder", "medicine cat", "mediator", "apprentice", "deputy", "medicine cat apprentice", "mediator apprentice"],
       "life_giving": [
         {
@@ -153,9 +153,9 @@
       ]
     },
 
-    "bloodthirsty_warrior": {
+    "vicious_warrior": {
       "tags": [],
-      "lead_trait": ["bloodthirsty"],
+      "lead_trait": ["vicious"],
       "star_trait": [],
       "rank": ["warrior", "elder", "medicine cat", "mediator", "apprentice", "deputy", "medicine cat apprentice", "mediator apprentice"],
       "life_giving": [
@@ -954,9 +954,9 @@
       ]
     },
 
-    "bloodthirsty_kit": {
+    "vicious_kit": {
       "tags": [],
-      "lead_trait": ["bloodthirsty"],
+      "lead_trait": ["vicious"],
       "star_trait": [],
       "rank": ["kitten"],
       "life_giving": [
@@ -980,9 +980,9 @@
       ]
     },
 
-    "bloodthirsty_app": {
+    "vicious_app": {
       "tags": [],
-      "lead_trait": ["bloodthirsty"],
+      "lead_trait": ["vicious"],
       "star_trait": [],
       "rank": ["apprentice", "medicine cat apprentice", "mediator apprentice"],
       "life_giving": [
@@ -1006,9 +1006,9 @@
       ]
     },
 
-    "bloodthirsty_elder": {
+    "vicious_elder": {
       "tags": [],
-      "lead_trait": ["bloodthirsty"],
+      "lead_trait": ["vicious"],
       "star_trait": [],
       "rank": ["elder"],
       "life_giving": [
@@ -1032,9 +1032,9 @@
       ]
     },
 
-    "bloodthirsty_med": {
+    "vicious_med": {
       "tags": [],
-      "lead_trait": ["bloodthirsty"],
+      "lead_trait": ["vicious"],
       "star_trait": [],
       "rank": ["medicine cat"],
       "life_giving": [
@@ -1070,9 +1070,9 @@
       ]
     },
 
-    "bloodthirsty_leader": {
+    "vicious_leader": {
       "tags": [],
-      "lead_trait": ["bloodthirsty"],
+      "lead_trait": ["vicious"],
       "star_trait": [],
       "rank": ["leader"],
       "life_giving": [
@@ -1082,9 +1082,9 @@
         }
       ]
     },
-    "bloodthirsty_leader_ancient": {
+    "vicious_leader_ancient": {
       "tags": ["old_leader"],
-      "lead_trait": ["bloodthirsty"],
+      "lead_trait": ["vicious"],
       "star_trait": [],
       "rank": ["leader"],
       "life_giving": [
@@ -1113,9 +1113,9 @@
         "m_c_star wakes, a hissing echo of {PRONOUN/m_c/poss} new name lingering in the air."
       ]
     },
-    "bloodthirsty": {
+    "vicious": {
       "tags": [],
-      "lead_trait": ["bloodthirsty"],
+      "lead_trait": ["vicious"],
       "text": [
         "r_c hails m_c by {PRONOUN/m_c/poss} new name, m_c_star, telling {PRONOUN/m_c/object} that {PRONOUN/m_c/poss} old pathetic life is no more. {PRONOUN/m_c/subject/CAP} {VERB/m_c/are/is} granted guardianship of c_n, and {VERB/m_c/are/is} told to use {PRONOUN/m_c/poss} new power however {PRONOUN/m_c/subject} wish. The Dark Forest's hissing and yowls echo in the dusky clearing as the new leader begins to wake up. m_c_star stands, feeling a new strength within {PRONOUN/m_c/poss} body, and grins."
       ]

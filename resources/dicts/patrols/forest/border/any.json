@@ -30,7 +30,7 @@
             "FIGHTER,2"
         ],
         "win_trait": [
-            "bloodthirsty",
+            "vicious",
             "fierce",
             "vengeful"
         ],
@@ -74,7 +74,7 @@
             "FIGHTER,2"
         ],
         "fail_trait": [
-            "bloodthirsty",
+            "vicious",
             "fierce",
             "vengeful"
         ],
@@ -179,7 +179,7 @@
         "fail_trait": [
             "adventurous",
             "ambitious",
-            "bloodthirsty",
+            "vicious",
             "bold",
             "confident",
             "daring",
@@ -247,7 +247,7 @@
         "fail_trait": [
             "adventurous",
             "ambitious",
-            "bloodthirsty",
+            "vicious",
             "bold",
             "confident",
             "daring",
@@ -312,7 +312,7 @@
         "fail_trait": [
             "adventurous",
             "ambitious",
-            "bloodthirsty",
+            "vicious",
             "bold",
             "confident",
             "daring",
@@ -364,7 +364,7 @@
         ],
         "win_trait": [
             "ambitious",
-            "bloodthirsty",
+            "vicious",
             "cold",
             "fierce",
             "shameless",
@@ -426,7 +426,7 @@
         ],
         "win_trait": [
             "ambitious",
-            "bloodthirsty",
+            "vicious",
             "cold",
             "fierce",
             "shameless",
@@ -485,7 +485,7 @@
         },
         "fail_trait": [
             "ambitious",
-            "bloodthirsty",
+            "vicious",
             "cold",
             "fierce",
             "shameless",
@@ -544,7 +544,7 @@
         ],
         "win_trait": [
             "ambitious",
-            "bloodthirsty",
+            "vicious",
             "cold",
             "fierce",
             "shameless",
@@ -604,7 +604,7 @@
         ],
         "win_trait": [
             "ambitious",
-            "bloodthirsty",
+            "vicious",
             "cold",
             "fierce",
             "shameless",
@@ -661,7 +661,7 @@
         },
         "fail_trait": [
             "ambitious",
-            "bloodthirsty",
+            "vicious",
             "cold",
             "fierce",
             "shameless",
@@ -713,7 +713,7 @@
         ],
         "win_trait": [
             "ambitious",
-            "bloodthirsty",
+            "vicious",
             "cold",
             "fierce",
             "shameless",
@@ -767,7 +767,7 @@
         ],
         "win_trait": [
             "ambitious",
-            "bloodthirsty",
+            "vicious",
             "cold",
             "fierce",
             "shameless",
@@ -819,7 +819,7 @@
         },
         "fail_trait": [
             "ambitious",
-            "bloodthirsty",
+            "vicious",
             "cold",
             "fierce",
             "shameless",

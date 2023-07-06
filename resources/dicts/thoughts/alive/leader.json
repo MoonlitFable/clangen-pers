@@ -110,25 +110,13 @@
         ]
     },
     {
-        "id": "bloodthirsty_leader",
+        "id": "vicious_leader",
         "thoughts": [
-            "Encourages warriors to start fights on border patrols",
-            "Is debating if {PRONOUN/m_c/subject} should declare a war with another Clan",
-            "Is wondering if {PRONOUN/m_c/subject} could hold apprentice ceremonies at 4 moons old instead",
-            "Is hoping to postpone the retirement of {PRONOUN/m_c/poss} clanmates",
-            "Is asking the medicine cats to have a stock of deathberries at {PRONOUN/m_c/poss} disposal",
-            "Doesn't understand StarClan's resentment towards {PRONOUN/m_c/object}",
-            "Is thinking about taking kits from another Clan",
-            "Encourages warriors to destroy other Clan's herb supplies",
-            "Demands the warriors train with their claws unsheathed",
-            "Is thinking about exiling elders from now on",
-            "Is thinking about driving out an opposing Clan",
             "Is glaring over the Clan from the leader's den",
-            "Is slashing at a 'disloyal' warrior",
-            "Is swearing the Clan is plotting against {PRONOUN/m_c/object}"
+            "Swears the Clan is plotting against {PRONOUN/m_c/object}"
         ],
         "main_trait_constraint": [
-            "bloodthirsty"
+            "vicious"
         ]
     },
     {
@@ -230,13 +218,13 @@
             "living"
         ],
         "main_trait_constraint": [
-            "bloodthirsty",
+            "vicious",
             "fierce",
             "cold",
             "vengeful"
         ],
         "random_trait_constraint": [
-            "bloodthirsty",
+            "vicious",
             "fierce",
             "cold",
             "vengeful"
@@ -259,13 +247,13 @@
             "living"
         ],
         "main_trait_constraint": [
-            "bloodthirsty",
+            "vicious",
             "fierce",
             "cold",
             "vengeful"
         ],
         "random_trait_constraint": [
-            "bloodthirsty",
+            "vicious",
             "fierce",
             "cold",
             "vengeful"
@@ -296,7 +284,7 @@
             "living"
         ],
         "random_trait_constraint": [
-            "bloodthirsty",
+            "vicious",
             "fierce",
             "cold",
             "vengeful"

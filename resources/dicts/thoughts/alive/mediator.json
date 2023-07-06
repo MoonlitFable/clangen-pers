@@ -95,14 +95,14 @@
         ]
     },
     {
-        "id": "bloodthirsty_mediator",
+        "id": "vicious_mediator",
         "thoughts": [
             "Is wondering if {PRONOUN/m_c/subject} should sabotage a relationship that is going a bit too well",
             "Wishes to break up a sickeningly lovey-dovey couple",
             "Chuckles to {PRONOUN/m_c/self} after sabotaging another relationship"
         ],
         "main_trait_constraint": [
-            "bloodthirsty"
+            "vicious"
         ]
     },
     {

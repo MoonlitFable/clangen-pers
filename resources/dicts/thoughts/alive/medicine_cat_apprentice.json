@@ -171,18 +171,14 @@
         ]
     },
     {
-        "id": "bloodthirsty_and_cold_medicine_cat_apprentice",
+        "id": "vicious_and_cold_medicine_cat_apprentice",
         "thoughts": [
-            "Is hoping {PRONOUN/m_c/poss} medicine cat name will end in -claw",
             "Wants to learn some battle moves... just in case",
             "Is keeping something hidden in the back of medicine den",
-            "Is wondering if StarClan uses greencough to weed out the weaker members of the Clan",
-            "Doesn't understand the point of keeping sickly old elders healthy with precious herbs",
-            "Is seen secretly leaving camp to wash {PRONOUN/m_c/poss} paws in a creek",
             "Is studying the effects of deathberries"
         ],
         "main_trait_constraint": [
-            "bloodthirsty",
+            "vicious",
             "cold",
             "vengeful",
             "fierce"
@@ -210,7 +206,6 @@
         "thoughts": [
             "Is unsure of r_c's treatment methods",
             "Is wondering why r_c decided to be a medicine cat",
-            "Is worried r_c likes to hurt patients",
             "Is skeptical of StarClan's choice of r_c as a medicine cat",
             "Is startled to find r_c has a stock pile of death berries"
         ],
@@ -222,7 +217,7 @@
             "sincere"
         ],
         "random_trait_constraint": [
-            "bloodthirsty",
+            "vicious",
             "cold",
             "vengeful",
             "fierce"
@@ -234,17 +229,10 @@
     {
         "id": "medicine_cat_apprentice_meanie_to_meanie_med",
         "thoughts": [
-            "Is plotting the downfall of c_n with r_c",
-            "Is meeting secretly with r_c to discuss a new 'treatment' method",
-            "Is helping r_c secretly gather death berries",
-            "Is delighted to find r_c feels the same way about weak cats",
-            "Is glad r_c is against sharing life saving herbs with enemy Clans",
-            "Is standing with r_c, both glaring over their newest vict-, erm, 'patients'",
-            "Is learning the best way to make a death look like a medical accident from r_c",
-            "Is discussing attacking other medicine cats at the next half moon with r_c"
+            "Is glad r_c is against sharing life saving herbs with enemy Clans"
         ],
         "random_trait_constraint": [
-            "bloodthirsty",
+            "vicious",
             "cold",
             "vengeful",
             "fierce"
@@ -253,7 +241,7 @@
             "medicine cat"
         ],
         "main_trait_constraint": [
-            "bloodthirsty",
+            "vicious",
             "cold",
             "vengeful",
             "fierce"

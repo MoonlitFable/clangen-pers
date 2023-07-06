@@ -352,7 +352,7 @@
         ],
         "win_trait": [
             "ambitious",
-            "bloodthirsty",
+            "vicious",
             "cold",
             "fierce",
             "shameless",
@@ -402,7 +402,7 @@
         ],
         "win_trait": [
             "ambitious",
-            "bloodthirsty",
+            "vicious",
             "cold",
             "fierce",
             "shameless",
@@ -452,7 +452,7 @@
         ],
         "win_trait": [
             "ambitious",
-            "bloodthirsty",
+            "vicious",
             "cold",
             "fierce",
             "shameless",
@@ -1013,7 +1013,7 @@
             "CLEVER,1"
         ],
         "win_trait": [
-            "bloodthirsty",
+            "vicious",
             "fierce",
             "vengeful",
             "bold",
@@ -1056,7 +1056,7 @@
             "FIGHTER,1"
         ],
         "win_trait": [
-            "bloodthirsty",
+            "vicious",
             "fierce",
             "vengeful",
             "bold",
@@ -1394,7 +1394,7 @@
         "fail_trait": [
             "troublesome",
             "vengeful",
-            "bloodthirsty",
+            "vicious",
             "bold"
         ],
         "min_cats": 4,
@@ -1450,7 +1450,7 @@
         "fail_trait": [
             "troublesome",
             "vengeful",
-            "bloodthirsty",
+            "vicious",
             "bold"
         ],
         "min_cats": 1,
@@ -1495,7 +1495,7 @@
         "win_trait": [
             "adventurous",
             "ambitious",
-            "bloodthirsty",
+            "vicious",
             "bold",
             "confident",
             "daring",
@@ -1548,7 +1548,7 @@
         "win_trait": [
             "adventurous",
             "ambitious",
-            "bloodthirsty",
+            "vicious",
             "bold",
             "confident",
             "daring",
@@ -1597,7 +1597,7 @@
         "win_trait": [
             "adventurous",
             "ambitious",
-            "bloodthirsty",
+            "vicious",
             "bold",
             "confident",
             "daring",

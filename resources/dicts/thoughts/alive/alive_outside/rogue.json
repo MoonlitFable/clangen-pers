@@ -1,6 +1,6 @@
 [
     {
-        "id": "bloodthirsty_rogue_to_alive_playerclan_leader",
+        "id": "vicious_rogue_to_alive_playerclan_leader",
         "thoughts": [
             "Tells {PRONOUN/m_c/self} {PRONOUN/m_c/subject} {VERB/m_c/are/is} going to kill r_c and take their position in c_n"
         ],
@@ -10,7 +10,7 @@
             "medicine cat"
         ],
         "main_trait_constraint": [
-            "bloodthirsty"
+            "vicious"
         ],
         "random_outside_status":[
             "clancat"

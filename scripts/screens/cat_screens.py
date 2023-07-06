@@ -269,12 +269,12 @@ class ProfileScreen(Screens):
             elif event.ui_element == self.specify_gender_button:
                 SpecifyCatGender(self.the_cat)
             elif event.ui_element == self.cis_trans_button:
-                if self.the_cat.genderalign != "female" and self.the_cat.genderalign != "male":
+                if self.the_cat.genderalign != "molly" and self.the_cat.genderalign != "tom":
                     self.the_cat.genderalign = self.the_cat.gender
-                elif self.the_cat.gender == "male" and self.the_cat.genderalign in ['male', 'female']:
-                    self.the_cat.genderalign = 'trans female'
-                elif self.the_cat.gender == "female" and self.the_cat.genderalign in ['male', 'female']:
-                    self.the_cat.genderalign = 'trans male'
+                elif self.the_cat.gender == "tom" and self.the_cat.genderalign in ['tom', 'molly']:
+                    self.the_cat.genderalign = 'trans molly'
+                elif self.the_cat.gender == "molly" and self.the_cat.genderalign in ['tom', 'molly']:
+                    self.the_cat.genderalign = 'trans tom'
                 self.clear_profile()
                 self.build_profile()
                 self.update_disabled_buttons_and_text()
@@ -1781,15 +1781,15 @@ class ProfileScreen(Screens):
             # Button to trans or cis the cats.
             if self.cis_trans_button:
                 self.cis_trans_button.kill()
-            if self.the_cat.gender == "female" and self.the_cat.genderalign in ['male', 'female']:
+            if self.the_cat.gender == "molly" and self.the_cat.genderalign in ['tom', 'molly']:
                 self.cis_trans_button = UIImageButton(scale(pygame.Rect((804, 972), (344, 104))), "",
                                                       starting_height=2, object_id="#change_trans_male_button",
                                                       manager=MANAGER)
-            elif self.the_cat.gender == "male" and self.the_cat.genderalign in ['male', 'female']:
+            elif self.the_cat.gender == "tom" and self.the_cat.genderalign in ['tom', 'molly']:
                 self.cis_trans_button = UIImageButton(scale(pygame.Rect((804, 972), (344, 104))), "",
                                                       starting_height=2, object_id="#change_trans_female_button",
                                                       manager=MANAGER)
-            elif self.the_cat.genderalign != "female" and self.the_cat.genderalign != "male":
+            elif self.the_cat.genderalign != "molly" and self.the_cat.genderalign != "tom":
                 self.cis_trans_button = UIImageButton(scale(pygame.Rect((804, 972), (344, 104))), "",
                                                       starting_height=2, object_id="#change_cis_button",
                                                       manager=MANAGER)
