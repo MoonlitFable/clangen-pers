@@ -1005,7 +1005,7 @@ class Pelt():
                 
                 if cat.pelt.colour in Pelt.black_colours + Pelt.brown_colours + Pelt.white_colours and \
                     cat.pelt.tortiecolour in Pelt.black_colours + Pelt.brown_colours + Pelt.white_colours:
-                        color_name = f"{color_name} mottled"
+                        color_name = f"mottled {color_name}"
                 else:
                     color_name = f"{color_name} {cat.pelt.name.lower()}"
 
