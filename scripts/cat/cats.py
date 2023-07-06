@@ -737,9 +737,9 @@ class Cat():
                 output = f"a {output}"
         else:
             if output[0].lower() in "aiou":
-                output = f"   An {output}. They have {self.describe_eyes()}."
+                output = f"— An {output}. They have {self.describe_eyes()}."
             else:
-                output = f"   A {output}. They have {self.describe_eyes()}."
+                output = f"— A {output}. They have {self.describe_eyes()}."
 
         return output
 
