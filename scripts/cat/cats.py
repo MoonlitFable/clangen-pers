@@ -3096,9 +3096,9 @@ def create_example_cats():
             game.choose_cats[a] = Cat(status='warrior', biome=None)
         else:
             game.choose_cats[a] = Cat(status=choice(
-                ['kitten', 'apprentice', 'warrior', 'warrior', 'elder']), biome=None)
+                ['kitten', 'apprentice', 'warrior', 'warrior']), biome=None)
         if game.choose_cats[a].moons >= 160:
-            game.choose_cats[a].moons = choice(range(120, 155))
+            game.choose_cats[a].moons = choice(range(90, 100))
         elif game.choose_cats[a].moons == 0:
             game.choose_cats[a].moons = choice([1, 2, 3, 4, 5])
         for scar in game.choose_cats[a].pelt.scars:
