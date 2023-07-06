@@ -788,7 +788,7 @@ class Pelt():
             elif p_ in Pelt.mostly_white:
                 add_weights = (5, 15, 20, 40, 5)
             elif p_ == "FULLWHITE":
-                add_weights = (0, 5, 15, 40, 10)
+                add_weights = (0, 0, 0, 0, 0)
             else:
                 add_weights = (0, 0, 0, 0, 0)
 
