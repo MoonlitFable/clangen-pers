@@ -1637,7 +1637,7 @@ class AllegiancesScreen(Screens):
                 for k in queen_dict[q]:
                     kittens += [f"<b>{str(k.name).upper()}</b>" + "\n" + f"{k.describe_cat(short=True)}"]
                 if len(kittens) == 1:
-                    kittens = "\n" + f"   <b><u>Caring for:</u></b>" + "\n" + f"{kittens[0]})"
+                    kittens = "\n" + f"   <b><u>Caring for:</u></b>" + "\n" + f"{kittens[0]}"
                 else:
                     kittens = "\n" + f"   <b><u>Caring for:</u></b>" + "\n" + "\n".join(kittens[:-1]) + "\n" + f"{kittens[-1]}"
 

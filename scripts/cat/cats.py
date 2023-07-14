@@ -47,9 +47,9 @@ class Cat():
 
     # This in is in reverse order: top of the list at the bottom
     rank_sort_order = [
+        "elder",
         "newborn",
         "kitten",
-        "elder",
         "apprentice",
         "warrior",
         "mediator apprentice",

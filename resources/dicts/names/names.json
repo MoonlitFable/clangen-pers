@@ -26,7 +26,7 @@
     "ripple", 
     "screech", "shadow", "shimmer", "shine", "shriek", "skitter", "snow", "storm", "stream", 
     "tail", "tuft", 
-    "whisker", "whisper", "wisp"
+    "whisker", "whisper"
   ],
 
   "pelt_suffixes": {
@@ -74,9 +74,9 @@
     
     "smoke": ["dapple", "speckle", "splash", "spot", "tangle", "swirl", "mist", "smoke", "shade"],
     
-    "rosette": ["dapple", "speckle", "splash", "spots", "dapple", "fern", "freckle"],
+    "rosette": ["dapple", "speckle", "splash", "spots"],
     
-    "speckled": ["dapple", "speckle", "splash", "spot", "speck", "freckle"],
+    "speckled": ["dapple", "speckle", "splash", "spots"],
     
     "mackerel": ["dapple", "speckle", "splash", "spot", "tangle", "swirl", "stripe", "branch"],
     
@@ -89,7 +89,7 @@
 
   "normal_prefixes": [
     "Acorn", "Adder", "Alder", "Almond", "Amaranth", "Anemone", "Anise", "Ant", "Antler", "Apple", "Apricot", "Arc", "Arch", "Argus", "Arum", "Ash", "Aspen", "Asphodel", "Aster", "Aven", "Avocet", "Azalea",
-    "Badger", "Bark", "Barley", "Basalt", "Basil", "Bass", "Bat", "Bay", "Bayou", "Beach", "Beam", "Bear", "Beaver", "Bee", "Beech", "Beetle", "Bergamot", "Berry", "Big", "Birch", "Bird", "Bite", "Bitter", "Bittern", "Black", "Bleak", "Blizzard", "Bloom", "Blossom", "Blotch", "Blue", "Bluebell", "Bluet", "Bluff", "Bog", "Bone", "Borage", "Bough", "Boulder", "Bounce", "Bracken", "Bramble", "Brambling", "Brave", "Bream", "Breeze", "Briar", "Bright", "Brindle", "Bristle", "Broken", "Brook", "Brown", "Brush", "Bubbling", "Buck", "Bud", "Bug", "Bumble", "Burdock", "Burnet", "Burr", "Bush", "Button", "Buzzard",
+    "Badger", "Bark", "Barley", "Basalt", "Basil", "Bass", "Bat", "Bay", "Bayou", "Beach", "Beam", "Bear", "Beaver", "Bee", "Beech", "Beetle", "Bergamot", "Berry", "Big", "Birch", "Bird", "Bite", "Bitter", "Bittern", "Black", "Bleak", "Blizzard", "Bloom", "Blossom", "Blotch", "Blue", "Bluebell", "Bluet", "Bluff", "Bog", "Bone", "Borage", "Bough", "Boulder", "Bounce", "Bracken", "Bramble", "Brambling", "Bream", "Breeze", "Briar", "Bright", "Brindle", "Bristle", "Broken", "Brook", "Brown", "Brush", "Bubbling", "Buck", "Bud", "Bug", "Bumble", "Burdock", "Burnet", "Burr", "Bush", "Button", "Buzzard",
     "Camellia", "Camphor", "Campion", "Canary", "Canyon", "Cardinal", "Carp", "Cassia", "Castor", "Catalpa", "Cave", "Cedar", "Chaffinch", "Chanterelle", "Chasing", "Cherry", "Chervil", "Chestnut", "Chive", "Chuck", "Cicada", "Cinder", "Cinnamon", "Claw", "Clay", "Clear", "Cliff", "Cloud", "Clover", "Clusia", "Coal", "Cohosh", "Comfrey", "Condor", "Cone", "Conifer", "Coot", "Copper", "Copse", "Cormorant", "Cotton", "Cougar", "Cove", "Coyote", "Crag", "Crane", "Crater", "Cream", "Creek", "Cress", "Crested", "Cricket", "Crocus", "Crooked", "Crouch", "Crow", "Cuckoo", "Curl", "Curlew", "Curly", "Currant", "Cypress",
     "Dace", "Daffodil", "Dahlia", "Daisy", "Dancing", "Dandelion", "Dapple", "Dappled", "Dark", "Dawn", "Day", "Deer", "Dew", "Dipper", "Dirt", "Doe", "Dog", "Dove", "Down", "Downy", "Drift", "Drizzle", "Dry", "Duck", "Dunnock", "Dusk", "Dust",
     "Eagle", "Echo", "Eel", "Egret", "Elder", "Elk", "Elm", "Ember", "Ermine", "Evening",
@@ -137,7 +137,7 @@
         "White", "Wisteria",
         "Yarrow",
       
-        "Berry", "Bird", "Blossom", "Boulder", "Brave", "Breeze",
+        "Berry", "Bird", "Blossom", "Boulder", "Breeze",
         "Fang", "Feather", "Fern", "Flower", "Fluff", "Fuzz",
         "Leaf", "Little",
         "Pebble", "Prickle",
@@ -166,7 +166,7 @@
         "Vervain",
         "Warbler",
       
-        "Berry", "Bird", "Blossom", "Boulder", "Brave", "Breeze",
+        "Berry", "Bird", "Blossom", "Boulder", "Breeze",
         "Fang", "Feather", "Fern", "Flower", "Fluff", "Fuzz",
         "Leaf", "Little",
         "Pebble", "Prickle",
@@ -195,7 +195,7 @@
         "Vervain",
         "Warbler",
 
-        "Berry", "Bird", "Blossom", "Boulder", "Brave", "Breeze",
+        "Berry", "Bird", "Blossom", "Boulder", "Breeze",
         "Fang", "Feather", "Fern", "Flower", "Fluff", "Fuzz",
         "Leaf", "Little",
         "Pebble", "Prickle",
@@ -224,7 +224,7 @@
         "Tassel", "Tern", "Thistle", "Thrush", "Thyme", "Trout",
         "Warbler", "Willow", "Wisteria",
 
-        "Berry", "Bird", "Blossom", "Boulder", "Brave", "Breeze",
+        "Berry", "Bird", "Blossom", "Boulder", "Breeze",
         "Fang", "Feather", "Fern", "Flower", "Fluff", "Fuzz",
         "Leaf", "Little",
         "Pebble", "Prickle",
@@ -251,7 +251,7 @@
         "Shade", "Shadow", "Smoke", "Soot", "Stone", "Storm", "Swift",
         "Warbler",
 
-        "Berry", "Bird", "Blossom", "Boulder", "Brave", "Breeze",
+        "Berry", "Bird", "Blossom", "Boulder", "Breeze",
         "Fang", "Feather", "Fern", "Flower", "Fluff", "Fuzz",
         "Leaf", "Little",
         "Pebble", "Prickle",
@@ -277,7 +277,7 @@
         "Wisteria",
         "Yarrow", "Yellow",
 
-        "Berry", "Bird", "Blossom", "Boulder", "Brave", "Breeze",
+        "Berry", "Bird", "Blossom", "Boulder", "Breeze",
         "Fang", "Feather", "Fern", "Flower", "Fluff", "Fuzz",
         "Leaf", "Little",
         "Pebble", "Prickle",
@@ -305,7 +305,7 @@
         "Wasp", "Wax", "Wisteria",
         "Yarrow", "Yellow",
 
-        "Berry", "Bird", "Blossom", "Boulder", "Brave", "Breeze",
+        "Berry", "Bird", "Blossom", "Boulder", "Breeze",
         "Fang", "Feather", "Fern", "Flower", "Fluff", "Fuzz",
         "Leaf", "Little",
         "Pebble", "Prickle",
@@ -331,7 +331,7 @@
         "Tawny", "Thrush", "Tiger",
         "Valerian", "Wasp",
 
-        "Berry", "Bird", "Blossom", "Boulder", "Brave", "Breeze",
+        "Berry", "Bird", "Blossom", "Boulder", "Breeze",
         "Fang", "Feather", "Fern", "Flower", "Fluff", "Fuzz",
         "Leaf", "Little",
         "Pebble", "Prickle",
@@ -356,7 +356,7 @@
         "Tanager", "Trillium",
         "Viburnum",
 
-        "Berry", "Bird", "Blossom", "Boulder", "Brave", "Breeze",
+        "Berry", "Bird", "Blossom", "Boulder", "Breeze",
         "Fang", "Feather", "Fern", "Flower", "Fluff", "Fuzz",
         "Leaf", "Little",
         "Pebble", "Prickle",
@@ -381,7 +381,7 @@
         "Tanager", "Trillium",
         "Viburnum",
 
-        "Berry", "Bird", "Blossom", "Boulder", "Brave", "Breeze",
+        "Berry", "Bird", "Blossom", "Boulder", "Breeze",
         "Fang", "Feather", "Fern", "Flower", "Fluff", "Fuzz",
         "Leaf", "Little",
         "Pebble", "Prickle",
@@ -407,7 +407,7 @@
         "Tansy",
         "Wasp", "Wax", "Yellow",
 
-        "Berry", "Bird", "Blossom", "Boulder", "Brave", "Breeze",
+        "Berry", "Bird", "Blossom", "Boulder", "Breeze",
         "Fang", "Feather", "Fern", "Flower", "Fluff", "Fuzz",
         "Leaf", "Little",
         "Pebble", "Prickle",
@@ -437,7 +437,7 @@
         "Velvet", "Vole",
         "Walnut", "Warbler", "Willet", "Wren",
 
-        "Berry", "Bird", "Blossom", "Boulder", "Brave", "Breeze",
+        "Berry", "Bird", "Blossom", "Boulder", "Breeze",
         "Fang", "Feather", "Fern", "Flower", "Fluff", "Fuzz",
         "Leaf", "Little",
         "Pebble", "Prickle",
@@ -467,7 +467,7 @@
         "Velvet", "Vole",
         "Walnut", "Warbler", "Willet", "Wren",
 
-        "Berry", "Bird", "Blossom", "Boulder", "Brave", "Breeze",
+        "Berry", "Bird", "Blossom", "Boulder", "Breeze",
         "Fang", "Feather", "Fern", "Flower", "Fluff", "Fuzz",
         "Leaf", "Little",
         "Pebble", "Prickle",
@@ -500,7 +500,7 @@
         "Walnut", "Warbler", "Weasel", "Whimbrel", "Whinchat", "Wren",
         "Yew",
 
-        "Berry", "Bird", "Blossom", "Boulder", "Brave", "Breeze",
+        "Berry", "Bird", "Blossom", "Boulder", "Breeze",
         "Fang", "Feather", "Fern", "Flower", "Fluff", "Fuzz",
         "Leaf", "Little",
         "Pebble", "Prickle",
@@ -533,7 +533,7 @@
         "Walnut", "Warbler", "Wasp", "Weasel", "Whimbrel", "Whinchat", "Wren",
         "Yew",
 
-        "Berry", "Bird", "Blossom", "Boulder", "Brave", "Breeze",
+        "Berry", "Bird", "Blossom", "Boulder", "Breeze",
         "Fang", "Feather", "Fern", "Flower", "Fluff", "Fuzz",
         "Leaf", "Little",
         "Pebble", "Prickle",
@@ -562,7 +562,7 @@
         "Turkey",
         "Umber",
 
-        "Berry", "Bird", "Blossom", "Boulder", "Brave", "Breeze",
+        "Berry", "Bird", "Blossom", "Boulder", "Breeze",
         "Fang", "Feather", "Fern", "Flower", "Fluff", "Fuzz",
         "Leaf", "Little",
         "Pebble", "Prickle",
@@ -591,7 +591,7 @@
         "Turkey",
         "Umber",
 
-        "Berry", "Bird", "Blossom", "Boulder", "Brave", "Breeze",
+        "Berry", "Bird", "Blossom", "Boulder", "Breeze",
         "Fang", "Feather", "Fern", "Flower", "Fluff", "Fuzz",
         "Leaf", "Little",
         "Pebble", "Prickle",
@@ -619,7 +619,7 @@
         "Viburnum", "Vulture",
         "Walnut",
 
-        "Berry", "Bird", "Blossom", "Boulder", "Brave", "Breeze",
+        "Berry", "Bird", "Blossom", "Boulder", "Breeze",
         "Fang", "Feather", "Fern", "Flower", "Fluff", "Fuzz",
         "Leaf", "Little",
         "Pebble", "Prickle",
@@ -647,7 +647,7 @@
         "Viburnum", "Vulture",
         "Walnut",
 
-        "Berry", "Bird", "Blossom", "Boulder", "Brave", "Breeze",
+        "Berry", "Bird", "Blossom", "Boulder", "Breeze",
         "Fang", "Feather", "Fern", "Flower", "Fluff", "Fuzz",
         "Leaf", "Little",
         "Pebble", "Prickle",
@@ -863,7 +863,7 @@
 		"badger", "bat", "bear", "bee", "beetle", "bird", "bug", "cricket", "deer", "eagle", "elk", "falcon", "fawn", "fish", "fox", "goose", "hare", "hawk", "horse", "jay", "kestrel", "kite", "lamb", "leopard", "lion", "minnow", "moth", "mouse", "newt", "ram", "raven", "roach", "scorpion", "sheep", "snake", "spider", "squid", "swan", "thrush", "tiger", "turtle"
 	],
 	"animal_prefixes": [
-		"Addax", "Adder", "Albatross", "Alligator", "Alpaca", "Ant", "Antelope", "Aphid", "Avocet", "Axolotl", "Badger", "Barracuda", "Bass", "Bat", "Bear", "Beaver", "Bee", "Beetle", "Beluga", "Bird", "Bison", "Bittern", "Boar", "Buck", "Buffalo", "Bug", "Butterfly", "Buzzard", "Camel", "Canary", "Caracal", "Caribou", "Carp", "Caterpillar", "Chaffinch", "Chamois", "Cheetah", "Chick", "Cicada", "Civet", "Clam", "Coati", "Cobra", "Cod", "Condor", "Coral", "Cormorant", "Cougar", "Cow", "Coyote", "Crab", "Crane", "Crocodile", "Crow", "Curlew", "Cygnet", "Deer", "Dingo", "Doe", "Dog", "Dolphin", "Dove", "Duck", "Eagle", "Egret", "Elk", "Ermine", "Ewe", "Falcon", "Fawn", "Fennec", "Ferret", "Finch", "Fish", "Fox", "Frog", "Gander", "Gannet", "Gar", "Gazelle", "Goat", "Goose", "Gosling", "Grackle", "Grebe", "Grouse", "Gull", "Guppy", "Hare", "Hawk", "Heron", "Hornet", "Horse", "Hound", "Ibis", "Jackal", "Jackdaw", "Jackrabbit", "Jay", "Jellyfish", "Jerboa", "Junco", "Kestrel", "Kingfisher", "Kite", "Lamb", "Lark", "Leopard", "Lion", "Lizard", "Loach", "Locust", "Lynx", "Magpie", "Mamba", "Mantis", "Marlin", "Meerkat", "Midge", "Mink", "Minnow", "Mite", "Mole", "Moorhen", "Moose", "Mosquito", "Moth", "Mouse", "Newt", "Nightingale", "Octopus", "Oriole", "Oryx", "Osprey", "Otter", "Owl", "Panther", "Partridge", "Pelican", "Perch", "Pheasant", "Pigeon", "Pike", "Pipit", "Pronghorn", "Python", "Quail", "Rabbit", "Raccoon", "Ram", "Rat", "Raven", "Roach", "Robin", "Sable", "Salamander", "Salmon", "Sardine", "Scorpion", "Seabass", "Seagull", "Serpent", "Shark", "Sheep", "Shrew", "Shrike", "Skink", "Skunk", "Slug", "Snail", "Snake", "Sparrow", "Spider", "Spoonbill", "Squid", "Squirrel", "Stag", "Starling", "Stoat", "Stork", "Swallow", "Swan", "Tadpole", "Taipan", "Tarantula", "Tiger", "Toad", "Trout", "Turtle", "Viper", "Vixen", "Vole", "Vulture", "Warbler", "Wasp", "Weasel", "Weevil", "Whale", "Wolf", "Wolverine", "Worm", "Wren"
+		"Addax", "Adder", "Albatross", "Alligator", "Alpaca", "Ant", "Antelope", "Aphid", "Avocet", "Axolotl", "Badger", "Barracuda", "Bass", "Bat", "Bear", "Beaver", "Bee", "Beetle", "Beluga", "Bird", "Bison", "Bittern", "Boar", "Buck", "Buffalo", "Bug", "Butterfly", "Buzzard", "Camel", "Canary", "Caracal", "Caribou", "Carp", "Caterpillar", "Chaffinch", "Chamois", "Cheetah", "Chick", "Cicada", "Civet", "Clam", "Coati", "Cobra", "Cod", "Condor", "Coral", "Cormorant", "Cougar", "Cow", "Coyote", "Crab", "Crane", "Crocodile", "Crow", "Curlew", "Cygnet", "Deer", "Dingo", "Doe", "Dog", "Dolphin", "Dove", "Duck", "Eagle", "Egret", "Elk", "Ermine", "Ewe", "Falcon", "Fawn", "Fennec", "Ferret", "Finch", "Fish", "Fox", "Frog", "Gander", "Gannet", "Gar", "Gazelle", "Goat", "Goose", "Gosling", "Grackle", "Grebe", "Grouse", "Gull", "Guppy", "Hare", "Hawk", "Heron", "Hornet", "Horse", "Hound", "Ibis", "Jackal", "Jackdaw", "Jackrabbit", "Jay", "Jellyfish", "Jerboa", "Junco", "Kestrel", "Kingfisher", "Kite", "Lamb", "Lark", "Leopard", "Lion", "Lizard", "Loach", "Locust", "Lynx", "Magpie", "Mamba", "Mantis", "Marlin", "Meerkat", "Midge", "Mink", "Minnow", "Mite", "Mole", "Moorhen", "Moose", "Mosquito", "Moth", "Mouse", "Newt", "Nightingale", "Octopus", "Oriole", "Oryx", "Osprey", "Otter", "Owl", "Panther", "Partridge", "Pelican", "Perch", "Pheasant", "Pigeon", "Pike", "Pipit", "Pronghorn", "Python", "Quail", "Rabbit", "Raccoon", "Ram", "Rat", "Raven", "Roach", "Robin", "Sable", "Salamander", "Salmon", "Sardine", "Scorpion", "Seabass", "Seagull", "Serpent", "Shark", "Sheep", "Shrew", "Shrike", "Skink", "Skunk", "Slug", "Snail", "Snake", "Sparrow", "Spider", "Spoonbill", "Squid", "Squirrel", "Stag", "Starling", "Stoat", "Stork", "Swallow", "Swan", "Tadpole", "Taipan", "Tarantula", "Tiger", "Toad", "Trout", "Turtle", "Viper", "Vixen", "Vole", "Vulture", "Warbler", "Wasp", "Weasel", "Weevil", "Whale", "Wolf", "Wolverine", "Worm", "Wren", "Thrift"
 	],
 	"inappropriate_names": [
 		"Wetback", "Yellowface", "Redface", "Blackface", "Brownface", "Pancakeface", "Yellowbone"
