@@ -539,7 +539,7 @@ class Clan():
             Cat.all_cats.get(cat_id).thoughts()
 
         game.save_cats()
-        number_other_clans = randint(3, 5)
+        number_other_clans = 1
         for _ in range(number_other_clans):
             self.all_clans.append(OtherClan())
         self.save_clan()
@@ -1387,9 +1387,9 @@ class OtherClan():
             'cunning', 'wary', 'logical', 'proud', 'stoic', 'mellow',
             'vicious', 'amiable', 'gracious'
         ]
-        self.name = name or choice(names.names_dict["clan_names"])
-        self.relations = relations or randint(8, 12)
-        self.temperament = temperament or choice(temperament_list)
+        self.name = name or "Crevice"
+        self.relations = relations or 30
+        self.temperament = temperament or 'amiable'
         if self.temperament not in temperament_list:
             self.temperament = choice(temperament_list)
 
