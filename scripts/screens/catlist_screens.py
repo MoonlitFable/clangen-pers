@@ -1,5 +1,8 @@
 import random
 
+lightdark = "light", "light", "dark"
+darklight = "dark", "dark", "light"
+
 import pygame
 from math import ceil
 from random import choice
@@ -236,9 +239,9 @@ class ClanScreen(Screens):
         game.switches['saved_clan'] = False
 
     def update_camp_bg(self):
-        light_dark = "light"
+        light_dark = random.choice(lightdark)
         if game.settings["dark mode"]:
-            light_dark = "dark"
+            light_dark = random.choice(darklight)
 
         camp_bg_base_dir = 'resources/images/camp_bg/'
         leaves = ["newleaf", "greenleaf", "leafbare", "leaffall"]

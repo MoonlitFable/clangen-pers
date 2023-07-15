@@ -474,7 +474,7 @@ class Clan():
         it's a range from 1-100, with 30-70 being neutral, 71-100 being "welcoming",
         and 1-29 being "hostile". if you're hostile to outsiders, they will VERY RARELY show up.
         """
-        self._reputation = 80
+        self._reputation = 50
         
         self.starting_members = starting_members
         if game_mode in ['expanded', 'cruel season']:
@@ -503,8 +503,10 @@ class Clan():
         created in the 'clan created' screen, not every time
         the program starts
         """
-        self.instructor = Cat(status=choice(["apprentice", "mediator apprentice", "medicine cat apprentice", "warrior",
-                                             "medicine cat", "leader", "mediator", "deputy", "elder"]),
+        self.instructor = Cat(status=choice([
+                                            "apprentice", "mediator apprentice", "medicine cat apprentice", "warrior",
+                                            "warrior", "warrior",  "medicine cat", "medicine cat", "medicine cat",
+                                            "leader", "mediator", "deputy", "elder"]),
                               )
         self.instructor.dead = True
         self.instructor.dead_for = randint(20, 200)
