@@ -1385,7 +1385,7 @@ class OtherClan():
             'cunning', 'wary', 'logical', 'proud', 'stoic', 'mellow',
             'vicious', 'amiable', 'gracious'
         ]
-        self.name = name or choice(names.names_dict["normal_prefixes"])
+        self.name = name or choice(names.names_dict["clan_names"])
         self.relations = relations or randint(8, 12)
         self.temperament = temperament or choice(temperament_list)
         if self.temperament not in temperament_list:

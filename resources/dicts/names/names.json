@@ -12,20 +12,19 @@
     },
 
   "normal_suffixes" : [
-    "berry", "bird", "blaze", "bloom", "blossom", "bounce", "breeze", "brook", "bubble", 
-    "chaser", "claw", "cloud", "crackle", "curl", 
+    "berry", "bird", "blaze", "bloom", "blossom", "bounce", "breeze", "brook",
+    "claw", "cloud", "crackle",
     "dust", 
     "echo", "ember", 
     "face", "fang", "feather", "fern", "flame", "flare", "flicker", "flight", "flower", "fog", "foot", "frost", "fur", 
-    "haze", "heart", 
-    "jumble", 
-    "leaf", "light", "lightning", 
-    "mist", "moon", 
-    "night", "nose", 
+    "heart",
+    "leaf", "light",
+    "mist",
+    "nose",
     "pelt", "petal", "pond", "pool", 
     "ripple", 
-    "screech", "shadow", "shimmer", "shine", "shriek", "skitter", "snow", "storm", "stream", 
-    "tail", "tuft", 
+    "screech", "shadow", "shimmer", "shine", "shriek", "snow", "storm", "stream",
+    "tail",
     "whisker", "whisper"
   ],
 
@@ -87,7 +86,7 @@
     "agouti": ["dapple", "speckle", "splash", "spot", "tangle", "swirl", "mist", "smoke", "shade"]
   },
 
-  "normal_prefixes": [
+  "clan_names": [
     "Acorn", "Adder", "Alder", "Almond", "Amaranth", "Anemone", "Anise", "Ant", "Antler", "Apple", "Apricot", "Arc", "Arch", "Argus", "Arum", "Ash", "Aspen", "Asphodel", "Aster", "Aven", "Avocet", "Azalea",
     "Badger", "Bark", "Barley", "Basalt", "Basil", "Bass", "Bat", "Bay", "Bayou", "Beach", "Beam", "Bear", "Beaver", "Bee", "Beech", "Beetle", "Bergamot", "Berry", "Big", "Birch", "Bird", "Bite", "Bitter", "Bittern", "Black", "Bleak", "Blizzard", "Bloom", "Blossom", "Blotch", "Blue", "Bluebell", "Bluet", "Bluff", "Bog", "Bone", "Borage", "Bough", "Boulder", "Bounce", "Bracken", "Bramble", "Brambling", "Bream", "Breeze", "Briar", "Bright", "Brindle", "Bristle", "Broken", "Brook", "Brown", "Brush", "Bubbling", "Buck", "Bud", "Bug", "Bumble", "Burdock", "Burnet", "Burr", "Bush", "Button", "Buzzard",
     "Camellia", "Camphor", "Campion", "Canary", "Canyon", "Cardinal", "Carp", "Cassia", "Castor", "Catalpa", "Cave", "Cedar", "Chaffinch", "Chanterelle", "Chasing", "Cherry", "Chervil", "Chestnut", "Chive", "Chuck", "Cicada", "Cinder", "Cinnamon", "Claw", "Clay", "Clear", "Cliff", "Cloud", "Clover", "Clusia", "Coal", "Cohosh", "Comfrey", "Condor", "Cone", "Conifer", "Coot", "Copper", "Copse", "Cormorant", "Cotton", "Cougar", "Cove", "Coyote", "Crag", "Crane", "Crater", "Cream", "Creek", "Cress", "Crested", "Cricket", "Crocus", "Crooked", "Crouch", "Crow", "Cuckoo", "Curl", "Curlew", "Curly", "Currant", "Cypress",
@@ -113,6 +112,16 @@
     "Walnut", "Warbler", "Wasp", "Water", "Wax", "Weasel", "Web", "Weed", "Wet", "Wheat", "Whimbrel", "Whinchat", "Whirl", "Whisker", "Whisper", "Whispering", "Whistle", "White", "Whorl", "Wild", "Willet", "Willow", "Wind", "Wing", "Wish", "Wisteria", "Wolf", "Wood", "Wren",
     "Yarrow", "Yellow", "Yew", "Yucca"
   ],
+  
+  "normal_prefixes": [
+      "Berry", "Bird", "Blossom", "Boulder", "Breeze",
+      "Fang", "Feather", "Fern", "Flower", "Fluff", "Fuzz",
+      "Leaf", "Little",
+      "Pebble", "Prickle",
+      "Sky", "Small", "Sprout", "Soft",
+      "Talon", "Tiny",
+      "Wind"
+  ],
 
   "colour_prefixes": {
     "WHITE": [
@@ -135,15 +144,7 @@
         "Tern", "Trillium",
         "Valerian",
         "White", "Wisteria",
-        "Yarrow",
-      
-        "Berry", "Bird", "Blossom", "Boulder", "Breeze",
-        "Fang", "Feather", "Fern", "Flower", "Fluff", "Fuzz",
-        "Leaf", "Little",
-        "Pebble", "Prickle",
-        "Sky", "Small", "Sprout", "Soft",
-        "Talon", "Tiny",
-        "Wind"
+        "Yarrow"
     ],
     
     "PALEGREY": [
@@ -164,15 +165,7 @@
         "Sage", "Shell", "Silver", "Sleet", "Stint", "Stone",
         "Teasel", "Tern", "Thrift", "Thrush",
         "Vervain",
-        "Warbler",
-      
-        "Berry", "Bird", "Blossom", "Boulder", "Breeze",
-        "Fang", "Feather", "Fern", "Flower", "Fluff", "Fuzz",
-        "Leaf", "Little",
-        "Pebble", "Prickle",
-        "Sky", "Small", "Sprout", "Soft",
-        "Talon", "Tiny",
-        "Wind"
+        "Warbler"
     ],
     
     "SILVER": [
@@ -193,16 +186,8 @@
         "Sage", "Shale", "Shell", "Silver", "Sleet", "Stint", "Stone",
         "Teasel", "Tern", "Thrift", "Thrush",
         "Vervain",
-        "Warbler",
-
-        "Berry", "Bird", "Blossom", "Boulder", "Breeze",
-        "Fang", "Feather", "Fern", "Flower", "Fluff", "Fuzz",
-        "Leaf", "Little",
-        "Pebble", "Prickle",
-        "Sky", "Small", "Sprout", "Soft",
-        "Talon", "Tiny",
-        "Wind"
-    ],
+        "Warbler"
+      ],
     
     "GREY": [
         "Ash", "Aspen", "Aster",
@@ -222,17 +207,9 @@
         "Rabbit", "Rain", "Roach", "Rock",
         "Salmon", "Shade", "Shadow", "Shale", "Shrike", "Slug", "Smoke", "Soot", "Spruce", "Squirrel", "Stint", "Stone", "Storm", "Sycamore",
         "Tassel", "Tern", "Thistle", "Thrush", "Thyme", "Trout",
-        "Warbler", "Willow", "Wisteria",
-
-        "Berry", "Bird", "Blossom", "Boulder", "Breeze",
-        "Fang", "Feather", "Fern", "Flower", "Fluff", "Fuzz",
-        "Leaf", "Little",
-        "Pebble", "Prickle",
-        "Sky", "Small", "Sprout", "Soft",
-        "Talon", "Tiny",
-        "Wind"
+        "Warbler", "Willow", "Wisteria"     
     ],
-    
+
     "DARKGREY": [
         "Ash",
         "Bleak", "Boulder",
@@ -249,15 +226,7 @@
         "Pebble", "Petrel", "Pewter", "Plover", "Possum",
         "Rain", "Raven",
         "Shade", "Shadow", "Smoke", "Soot", "Stone", "Storm", "Swift",
-        "Warbler",
-
-        "Berry", "Bird", "Blossom", "Boulder", "Breeze",
-        "Fang", "Feather", "Fern", "Flower", "Fluff", "Fuzz",
-        "Leaf", "Little",
-        "Pebble", "Prickle",
-        "Sky", "Small", "Sprout", "Soft",
-        "Talon", "Tiny",
-        "Wind"
+        "Warbler"     
     ],
     
     "PALEGINGER": [
@@ -275,15 +244,7 @@
         "Thrift",
         "Verbena", "Vervain",
         "Wisteria",
-        "Yarrow", "Yellow",
-
-        "Berry", "Bird", "Blossom", "Boulder", "Breeze",
-        "Fang", "Feather", "Fern", "Flower", "Fluff", "Fuzz",
-        "Leaf", "Little",
-        "Pebble", "Prickle",
-        "Sky", "Small", "Sprout", "Soft",
-        "Talon", "Tiny",
-        "Wind"
+        "Yarrow", "Yellow"     
     ],
     
     "GOLDEN": [
@@ -303,15 +264,7 @@
         "Tansy", "Tawny", "Thrift",
         "Verbena", "Vervain",
         "Wasp", "Wax", "Wisteria",
-        "Yarrow", "Yellow",
-
-        "Berry", "Bird", "Blossom", "Boulder", "Breeze",
-        "Fang", "Feather", "Fern", "Flower", "Fluff", "Fuzz",
-        "Leaf", "Little",
-        "Pebble", "Prickle",
-        "Sky", "Small", "Sprout", "Soft",
-        "Talon", "Tiny",
-        "Wind"
+        "Yarrow", "Yellow"     
     ],
     
     "GINGER": [
@@ -329,15 +282,7 @@
         "Red", "Robin", "Rose", "Rowan", "Rust",
         "Sedge", "Senna", "Skipper", "Squirrel", "Straw", "Sun",
         "Tawny", "Thrush", "Tiger",
-        "Valerian", "Wasp",
-
-        "Berry", "Bird", "Blossom", "Boulder", "Breeze",
-        "Fang", "Feather", "Fern", "Flower", "Fluff", "Fuzz",
-        "Leaf", "Little",
-        "Pebble", "Prickle",
-        "Sky", "Small", "Sprout", "Soft",
-        "Talon", "Tiny",
-        "Wind"
+        "Valerian", "Wasp"     
     ],
     
     "DARKGINGER": [
@@ -354,15 +299,7 @@
         "Red", "Robin", "Rowan", "Russet", "Rust",
         "Scarlet", "Spindle", "Sorrel", "Squirrel", "Stoat", "Sumac",
         "Tanager", "Trillium",
-        "Viburnum",
-
-        "Berry", "Bird", "Blossom", "Boulder", "Breeze",
-        "Fang", "Feather", "Fern", "Flower", "Fluff", "Fuzz",
-        "Leaf", "Little",
-        "Pebble", "Prickle",
-        "Sky", "Small", "Sprout", "Soft",
-        "Talon", "Tiny",
-        "Wind"
+        "Viburnum"     
     ],
     
     "SIENNA": [
@@ -379,15 +316,7 @@
         "Red", "Robin", "Rowan", "Russet", "Rust",
         "Scarlet", "Spindle", "Sorrel", "Squirrel", "Stoat", "Sumac",
         "Tanager", "Trillium",
-        "Viburnum",
-
-        "Berry", "Bird", "Blossom", "Boulder", "Breeze",
-        "Fang", "Feather", "Fern", "Flower", "Fluff", "Fuzz",
-        "Leaf", "Little",
-        "Pebble", "Prickle",
-        "Sky", "Small", "Sprout", "Soft",
-        "Talon", "Tiny",
-        "Wind"
+        "Viburnum"     
     ],
     
     "CREAM": [
@@ -405,15 +334,7 @@
         "Reed", "Robin", "Rush", "Rye",
         "Sand", "Senna", "Snail", "Spindle", "Straw",
         "Tansy",
-        "Wasp", "Wax", "Yellow",
-
-        "Berry", "Bird", "Blossom", "Boulder", "Breeze",
-        "Fang", "Feather", "Fern", "Flower", "Fluff", "Fuzz",
-        "Leaf", "Little",
-        "Pebble", "Prickle",
-        "Sky", "Small", "Sprout", "Soft",
-        "Talon", "Tiny",
-        "Wind"
+        "Wasp", "Wax", "Yellow"     
     ],
     
     "LIGHTBROWN": [
@@ -435,15 +356,7 @@
         "Tawny", "Thrush", "Trout",
         "Umber",
         "Velvet", "Vole",
-        "Walnut", "Warbler", "Willet", "Wren",
-
-        "Berry", "Bird", "Blossom", "Boulder", "Breeze",
-        "Fang", "Feather", "Fern", "Flower", "Fluff", "Fuzz",
-        "Leaf", "Little",
-        "Pebble", "Prickle",
-        "Sky", "Small", "Sprout", "Soft",
-        "Talon", "Tiny",
-        "Wind"
+        "Walnut", "Warbler", "Willet", "Wren"     
     ],
     
     "LILAC": [
@@ -465,15 +378,7 @@
         "Tawny", "Thrush", "Trout",
         "Umber",
         "Velvet", "Vole",
-        "Walnut", "Warbler", "Willet", "Wren",
-
-        "Berry", "Bird", "Blossom", "Boulder", "Breeze",
-        "Fang", "Feather", "Fern", "Flower", "Fluff", "Fuzz",
-        "Leaf", "Little",
-        "Pebble", "Prickle",
-        "Sky", "Small", "Sprout", "Soft",
-        "Talon", "Tiny",
-        "Wind"
+        "Walnut", "Warbler", "Willet", "Wren"     
     ],
     
     "BROWN": [
@@ -498,15 +403,7 @@
         "Umber",
         "Vole",
         "Walnut", "Warbler", "Weasel", "Whimbrel", "Whinchat", "Wren",
-        "Yew",
-
-        "Berry", "Bird", "Blossom", "Boulder", "Breeze",
-        "Fang", "Feather", "Fern", "Flower", "Fluff", "Fuzz",
-        "Leaf", "Little",
-        "Pebble", "Prickle",
-        "Sky", "Small", "Sprout", "Soft",
-        "Talon", "Tiny",
-        "Wind"
+        "Yew"     
     ],
     
     "GOLDEN-BROWN": [
@@ -531,15 +428,7 @@
         "Umber",
         "Vole",
         "Walnut", "Warbler", "Wasp", "Weasel", "Whimbrel", "Whinchat", "Wren",
-        "Yew",
-
-        "Berry", "Bird", "Blossom", "Boulder", "Breeze",
-        "Fang", "Feather", "Fern", "Flower", "Fluff", "Fuzz",
-        "Leaf", "Little",
-        "Pebble", "Prickle",
-        "Sky", "Small", "Sprout", "Soft",
-        "Talon", "Tiny",
-        "Wind"
+        "Yew"     
     ],
     
     "DARKBROWN": [
@@ -560,15 +449,7 @@
         "Shade", "Snake", "Soil", "Swift",
         "Tiger",
         "Turkey",
-        "Umber",
-
-        "Berry", "Bird", "Blossom", "Boulder", "Breeze",
-        "Fang", "Feather", "Fern", "Flower", "Fluff", "Fuzz",
-        "Leaf", "Little",
-        "Pebble", "Prickle",
-        "Sky", "Small", "Sprout", "Soft",
-        "Talon", "Tiny",
-        "Wind"
+        "Umber"     
     ],
     
     "CHOCOLATE": [
@@ -589,15 +470,7 @@
         "Shade", "Snake", "Soil", "Swift",
         "Tiger",
         "Turkey",
-        "Umber",
-
-        "Berry", "Bird", "Blossom", "Boulder", "Breeze",
-        "Fang", "Feather", "Fern", "Flower", "Fluff", "Fuzz",
-        "Leaf", "Little",
-        "Pebble", "Prickle",
-        "Sky", "Small", "Sprout", "Soft",
-        "Talon", "Tiny",
-        "Wind"
+        "Umber"     
     ],
     
     "BLACK": [
@@ -617,15 +490,7 @@
         "Sedge", "Shade", "Shadow", "Sheep", "Sloe", "Slug", "Snake", "Soot", "Spider", "Spruce", "Starling", "Swift",
         "Tern",
         "Viburnum", "Vulture",
-        "Walnut",
-
-        "Berry", "Bird", "Blossom", "Boulder", "Breeze",
-        "Fang", "Feather", "Fern", "Flower", "Fluff", "Fuzz",
-        "Leaf", "Little",
-        "Pebble", "Prickle",
-        "Sky", "Small", "Sprout", "Soft",
-        "Talon", "Tiny",
-        "Wind"
+        "Walnut"     
     ],
 
     "GHOST": [
@@ -645,15 +510,7 @@
         "Sedge", "Shade", "Shadow", "Sheep", "Sloe", "Slug", "Snake", "Soot", "Spider", "Spruce", "Starling", "Swift",
         "Tern",
         "Viburnum", "Vulture",
-        "Walnut",
-
-        "Berry", "Bird", "Blossom", "Boulder", "Breeze",
-        "Fang", "Feather", "Fern", "Flower", "Fluff", "Fuzz",
-        "Leaf", "Little",
-        "Pebble", "Prickle",
-        "Sky", "Small", "Sprout", "Soft",
-        "Talon", "Tiny",
-        "Wind"
+        "Walnut"
     ]
   },
 
