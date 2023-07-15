@@ -87,10 +87,10 @@
   },
 
   "clan_names": [
-    "Acorn", "Adder", "Alder", "Almond", "Amaranth", "Anemone", "Anise", "Ant", "Antler", "Apple", "Apricot", "Arc", "Arch", "Argus", "Arum", "Ash", "Aspen", "Asphodel", "Aster", "Aven", "Avocet", "Azalea",
+    "Acorn", "Adder", "Alder", "Almond", "Amaranth", "Anemone", "Anise", "Ant", "Antler", "Apple", "Apricot", "Arc", "Arch", "Arum", "Ash", "Aspen", "Asphodel", "Aster", "Aven", "Avocet", "Azalea",
     "Badger", "Bark", "Barley", "Basalt", "Basil", "Bass", "Bat", "Bay", "Bayou", "Beach", "Beam", "Bear", "Beaver", "Bee", "Beech", "Beetle", "Bergamot", "Berry", "Big", "Birch", "Bird", "Bite", "Bitter", "Bittern", "Black", "Bleak", "Blizzard", "Bloom", "Blossom", "Blotch", "Blue", "Bluebell", "Bluet", "Bluff", "Bog", "Bone", "Borage", "Bough", "Boulder", "Bounce", "Bracken", "Bramble", "Brambling", "Bream", "Breeze", "Briar", "Bright", "Brindle", "Bristle", "Broken", "Brook", "Brown", "Brush", "Bubbling", "Buck", "Bud", "Bug", "Bumble", "Burdock", "Burnet", "Burr", "Bush", "Button", "Buzzard",
-    "Camellia", "Camphor", "Campion", "Canary", "Canyon", "Cardinal", "Carp", "Cassia", "Castor", "Catalpa", "Cave", "Cedar", "Chaffinch", "Chanterelle", "Chasing", "Cherry", "Chervil", "Chestnut", "Chive", "Chuck", "Cicada", "Cinder", "Cinnamon", "Claw", "Clay", "Clear", "Cliff", "Cloud", "Clover", "Clusia", "Coal", "Cohosh", "Comfrey", "Condor", "Cone", "Conifer", "Coot", "Copper", "Copse", "Cormorant", "Cotton", "Cougar", "Cove", "Coyote", "Crag", "Crane", "Crater", "Cream", "Creek", "Cress", "Crested", "Cricket", "Crocus", "Crooked", "Crouch", "Crow", "Cuckoo", "Curl", "Curlew", "Curly", "Currant", "Cypress",
-    "Dace", "Daffodil", "Dahlia", "Daisy", "Dancing", "Dandelion", "Dapple", "Dappled", "Dark", "Dawn", "Day", "Deer", "Dew", "Dipper", "Dirt", "Doe", "Dog", "Dove", "Down", "Downy", "Drift", "Drizzle", "Dry", "Duck", "Dunnock", "Dusk", "Dust",
+    "Camellia", "Camphor", "Campion", "Canary", "Canyon", "Cardinal", "Carp", "Cassia", "Castor", "Catalpa", "Cave", "Cedar", "Chaffinch", "Chasing", "Cherry", "Chervil", "Chestnut", "Chive", "Chuck", "Cicada", "Cinder", "Cinnamon", "Claw", "Clay", "Clear", "Cliff", "Cloud", "Clover", "Clusia", "Coal", "Cohosh", "Comfrey", "Condor", "Cone", "Conifer", "Coot", "Copper", "Copse", "Cormorant", "Cotton", "Cougar", "Cove", "Coyote", "Crag", "Crane", "Crater", "Cream", "Creek", "Cress", "Crested", "Cricket", "Crocus", "Crooked", "Crouch", "Crow", "Cuckoo", "Curl", "Curlew", "Curly", "Currant", "Cypress",
+    "Dace", "Daffodil", "Dahlia", "Daisy", "Dancing", "Dandelion", "Dapple", "Dappled", "Dark", "Dawn", "Day", "Deer", "Dew", "Dipper", "Dirt", "Dog", "Dove", "Down", "Downy", "Drift", "Drizzle", "Dry", "Duck", "Dunnock", "Dusk", "Dust",
     "Eagle", "Echo", "Eel", "Egret", "Elder", "Elk", "Elm", "Ember", "Ermine", "Evening",
     "Falcon", "Fallen", "Falling", "Fallow", "Fawn", "Feather", "Fennel", "Fern", "Ferret", "Fescue", "Fidget", "Field", "Fig", "Fin", "Finch", "Fir", "Fire", "Fish", "Flail", "Flame", "Flash", "Flax", "Fleck", "Fleet", "Flicker", "Flight", "Flint", "Flip", "Flood", "Flower", "Fluff", "Fluffy", "Flurry", "Flutter", "Foam", "Fog", "Forest", "Fox", "Freckle", "Fringe", "Fritillary", "Frog", "Frond", "Frost", "Fuchsia", "Furled", "Fuzzy",
     "Gadwall", "Gale", "Gander", "Gannet", "Garlic", "Geranium", "Ginger", "Gingko", "Gold", "Golden", "Goose", "Gorge", "Gorse", "Grackle", "Grama", "Granite", "Grape", "Grass", "Gravel", "Gray", "Grebe", "Grouse", "Gudgeon", "Gull", "Gust",
@@ -250,7 +250,7 @@
     "GOLDEN": [
         "Acorn", "Apple", "Aspen", "Asphodel", "Azalea",
         "Barley", "Bee", "Bright",
-        "Canary", "Carp", "Chanterelle", "Chestnut", "Clover",
+        "Canary", "Carp", "Chestnut", "Clover",
         "Daffodil", "Daisy", "Dandelion", "Dawn",
         "Fennel", "Fig", "Fritillary",
         "Ginger", "Gold", "Gorse",
@@ -270,7 +270,7 @@
     "GINGER": [
         "Apple", "Aspen", "Asphodel", "Aven", "Azalea",
         "Burnet",
-        "Campion", "Chanterelle", "Chestnut", "Clover", "Daisy",
+        "Campion", "Chestnut", "Clover", "Daisy",
         "Elm", "Ember",
         "Finch", "Fire", "Flame", "Flicker", "Fox", "Fritillary",
         "Ginger",
@@ -322,7 +322,7 @@
     "CREAM": [
         "Acorn", "Almond", "Apple", "Asphodel", "Aster", "Avocet", "Azalea",
         "Bee",
-        "Carp", "Catalpa", "Chanterelle", "Chestnut", "Clover", "Cream", "Currant",
+        "Carp", "Catalpa", "Chestnut", "Clover", "Cream", "Currant",
         "Daffodil", "Daisy", "Dandelion", "Dawn",
         "Elm", "Fawn", "Fennel", "Fritillary",
         "Geranium", "Golden", "Gorse", "Grama",
@@ -385,7 +385,7 @@
         "Acorn", "Adder", "Alder",
         "Bat", "Beaver", "Beech", "Bittern", "Boulder", "Bramble", "Brambling", "Briar", "Brown", "Buzzard",
         "Chestnut", "Chuck", "Cuckoo", "Curlew",
-        "Dark", "Deer", "Doe", "Duck", "Dunnock", "Dust",
+        "Dark", "Deer", "Duck", "Dunnock", "Dust",
         "Eagle", "Elm",
         "Fawn", "Flicker", "Frog",
         "Goose", "Grouse", "Gudgeon",
@@ -410,7 +410,7 @@
         "Acorn", "Adder", "Alder",
         "Bat", "Beaver", "Bee", "Beech", "Bittern", "Boulder", "Bramble", "Brambling", "Briar", "Brown", "Buzzard",
         "Chestnut", "Chuck", "Cuckoo", "Curlew",
-        "Dark", "Deer", "Doe", "Duck", "Dunnock", "Dust",
+        "Dark", "Deer", "Duck", "Dunnock", "Dust",
         "Eagle", "Elm",
         "Fawn", "Flicker", "Frog",
         "Goose", "Grouse", "Gudgeon",
@@ -432,9 +432,9 @@
     ],
     
     "DARKBROWN": [
-        "Alder", "Ant", "Argus",
+        "Alder", "Ant", 
         "Bat", "Beaver", "Beetle", "Brown",
-        "Cedar", "Chanterelle", "Chestnut",
+        "Cedar", "Chestnut",
         "Dark", "Dipper", "Dusk",
         "Eagle", "Eel", "Elk",
         "Goose",
@@ -453,9 +453,9 @@
     ],
     
     "CHOCOLATE": [
-        "Alder", "Ant", "Argus",
+        "Alder", "Ant", 
         "Bat", "Beaver", "Beetle", "Brown",
-        "Cedar", "Chanterelle", "Chestnut",
+        "Cedar", "Chestnut",
         "Dark", "Dipper", "Dusk",
         "Eagle", "Eel", "Elk",
         "Goose",
@@ -667,7 +667,7 @@
   },
 
   "loner_names": [
-        "Abraham DeLacey Giuseppe Casey Thomas O'Malley", "Abyss", "Ace",  "Admiral", "Amber", "Angel", "Armageddon", "April", "Ash", "Aurora",
+        "Abraham DeLacey Giuseppe Casey Thomas O'Malley", "Abyss", "Ace", "Admiral", "Amber", "Angel", "Armageddon", "April", "Ash", "Aurora",
 
          "Basil", "Bandit", "Bean", "Beanie Baby", "Beanie", "Beans", "Bebe", "Belle", "Benny", "Berlioz", "Berry", "Binx", "Birdie", "Blu", "Bluebell", "Blossom", "Bolt", "Bonbon", "Boo", "Buddy", "Bumblebee", "Bunny", "Bub",
 
@@ -718,7 +718,7 @@
 		"badger", "bat", "bear", "bee", "beetle", "bird", "bug", "cricket", "deer", "eagle", "elk", "falcon", "fawn", "fish", "fox", "goose", "hare", "hawk", "horse", "jay", "kestrel", "kite", "lamb", "leopard", "lion", "minnow", "moth", "mouse", "newt", "ram", "raven", "roach", "scorpion", "sheep", "snake", "spider", "squid", "swan", "thrush", "tiger", "turtle"
 	],
 	"animal_prefixes": [
-		"Addax", "Adder", "Albatross", "Alligator", "Alpaca", "Ant", "Antelope", "Aphid", "Avocet", "Axolotl", "Badger", "Barracuda", "Bass", "Bat", "Bear", "Beaver", "Bee", "Beetle", "Beluga", "Bird", "Bison", "Bittern", "Boar", "Buck", "Buffalo", "Bug", "Butterfly", "Buzzard", "Camel", "Canary", "Caracal", "Caribou", "Carp", "Caterpillar", "Chaffinch", "Chamois", "Cheetah", "Chick", "Cicada", "Civet", "Clam", "Coati", "Cobra", "Cod", "Condor", "Coral", "Cormorant", "Cougar", "Cow", "Coyote", "Crab", "Crane", "Crocodile", "Crow", "Curlew", "Cygnet", "Deer", "Dingo", "Doe", "Dog", "Dolphin", "Dove", "Duck", "Eagle", "Egret", "Elk", "Ermine", "Ewe", "Falcon", "Fawn", "Fennec", "Ferret", "Finch", "Fish", "Fox", "Frog", "Gander", "Gannet", "Gar", "Gazelle", "Goat", "Goose", "Gosling", "Grackle", "Grebe", "Grouse", "Gull", "Guppy", "Hare", "Hawk", "Heron", "Hornet", "Horse", "Hound", "Ibis", "Jackal", "Jackdaw", "Jackrabbit", "Jay", "Jellyfish", "Jerboa", "Junco", "Kestrel", "Kingfisher", "Kite", "Lamb", "Lark", "Leopard", "Lion", "Lizard", "Loach", "Locust", "Lynx", "Magpie", "Mamba", "Mantis", "Marlin", "Meerkat", "Midge", "Mink", "Minnow", "Mite", "Mole", "Moorhen", "Moose", "Mosquito", "Moth", "Mouse", "Newt", "Nightingale", "Octopus", "Oriole", "Oryx", "Osprey", "Otter", "Owl", "Panther", "Partridge", "Pelican", "Perch", "Pheasant", "Pigeon", "Pike", "Pipit", "Pronghorn", "Python", "Quail", "Rabbit", "Raccoon", "Ram", "Rat", "Raven", "Roach", "Robin", "Sable", "Salamander", "Salmon", "Sardine", "Scorpion", "Seabass", "Seagull", "Serpent", "Shark", "Sheep", "Shrew", "Shrike", "Skink", "Skunk", "Slug", "Snail", "Snake", "Sparrow", "Spider", "Spoonbill", "Squid", "Squirrel", "Stag", "Starling", "Stoat", "Stork", "Swallow", "Swan", "Tadpole", "Taipan", "Tarantula", "Tiger", "Toad", "Trout", "Turtle", "Viper", "Vixen", "Vole", "Vulture", "Warbler", "Wasp", "Weasel", "Weevil", "Whale", "Wolf", "Wolverine", "Worm", "Wren", "Thrift"
+		"Addax", "Adder", "Albatross", "Alligator", "Alpaca", "Ant", "Antelope", "Aphid", "Avocet", "Axolotl", "Badger", "Barracuda", "Bass", "Bat", "Bear", "Beaver", "Bee", "Beetle", "Beluga", "Bird", "Bison", "Bittern", "Boar", "Buck", "Buffalo", "Bug", "Butterfly", "Buzzard", "Camel", "Canary", "Caracal", "Caribou", "Carp", "Caterpillar", "Chaffinch", "Chamois", "Cheetah", "Chick", "Cicada", "Civet", "Clam", "Coati", "Cobra", "Cod", "Condor", "Coral", "Cormorant", "Cougar", "Cow", "Coyote", "Crab", "Crane", "Crocodile", "Crow", "Curlew", "Cygnet", "Deer", "Dingo", "Dog", "Dolphin", "Dove", "Duck", "Eagle", "Egret", "Elk", "Ermine", "Ewe", "Falcon", "Fawn", "Fennec", "Ferret", "Finch", "Fish", "Fox", "Frog", "Gander", "Gannet", "Gar", "Gazelle", "Goat", "Goose", "Gosling", "Grackle", "Grebe", "Grouse", "Gull", "Guppy", "Hare", "Hawk", "Heron", "Hornet", "Horse", "Hound", "Ibis", "Jackal", "Jackdaw", "Jackrabbit", "Jay", "Jellyfish", "Jerboa", "Junco", "Kestrel", "Kingfisher", "Kite", "Lamb", "Lark", "Leopard", "Lion", "Lizard", "Loach", "Locust", "Lynx", "Magpie", "Mamba", "Mantis", "Marlin", "Meerkat", "Midge", "Mink", "Minnow", "Mite", "Mole", "Moorhen", "Moose", "Mosquito", "Moth", "Mouse", "Newt", "Nightingale", "Octopus", "Oriole", "Oryx", "Osprey", "Otter", "Owl", "Panther", "Partridge", "Pelican", "Perch", "Pheasant", "Pigeon", "Pike", "Pipit", "Pronghorn", "Python", "Quail", "Rabbit", "Raccoon", "Ram", "Rat", "Raven", "Roach", "Robin", "Sable", "Salamander", "Salmon", "Sardine", "Scorpion", "Seabass", "Seagull", "Serpent", "Shark", "Sheep", "Shrew", "Shrike", "Skink", "Skunk", "Slug", "Snail", "Snake", "Sparrow", "Spider", "Spoonbill", "Squid", "Squirrel", "Stag", "Starling", "Stoat", "Stork", "Swallow", "Swan", "Tadpole", "Taipan", "Tarantula", "Tiger", "Toad", "Trout", "Turtle", "Viper", "Vixen", "Vole", "Vulture", "Warbler", "Wasp", "Weasel", "Weevil", "Whale", "Wolf", "Wolverine", "Worm", "Wren", "Thrift"
 	],
 	"inappropriate_names": [
 		"Wetback", "Yellowface", "Redface", "Blackface", "Brownface", "Pancakeface", "Yellowbone"
